@@ -16,6 +16,7 @@ class CreateKomiksTable extends Migration
         Schema::create('komiks', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger("genre_id")->index();
+            $table->text("meta")->nullable();
             $table->string("thumbnail")->default("uploads/image.jpg");
             $table->string("name");
             $table->enum("status",["ongoing","selesai"])->default("ongoing");

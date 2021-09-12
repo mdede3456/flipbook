@@ -15,9 +15,13 @@ class CreateFlipBooksTable extends Migration
     {
         Schema::create('flip_books', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger("category_id")->index();
+            $table->unsignedBigInteger("author_id")->index();
+            $table->text("tag")->nullable();
             $table->string("title")->nullable();
             $table->longText("description")->nullable();
             $table->string("file")->nullable();
+            $table->enum("unggulan",["ya","tidak"])->default("ya");
             $table->integer("status")->default(0);
             $table->timestamps();
         });
