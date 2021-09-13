@@ -13,6 +13,6 @@ class BannerSeeder extends Seeder
      */
     public function run()
     {
-        //
+        
     }
 }

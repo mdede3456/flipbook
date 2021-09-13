@@ -66,6 +66,11 @@ class FlipBookController extends Controller
         $request->description ? $data->description = $request->description : null;
         $request->status ? $data->status = $request->status : null;
         $request->file ? $data->file = $this->uploadImage($request, 'file', 'berkas') : null;
+        $data->category_id = $request->category_id;
+        $data->author_id = Auth()->user()->id;
+        $data->unggulan = $request->unggulan;
+        $request->thumbnail ? $data->thumbnail = $this->uploadImage($request, 'thumbnail', 'flipbook') : null;
+        $request->tag ? $data->tag = json_encode($request->tag) : null;
         return $this->saveData($data);
     }
 

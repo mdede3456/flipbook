@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Frontend\Policy;
 use Illuminate\Database\Seeder;
 
 class PolicySeeder extends Seeder
@@ -13,6 +14,14 @@ class PolicySeeder extends Seeder
      */
     public function run()
     {
-        //
+        $data = [
+            [
+                'title'     => "About Page",
+                "description"   => null,
+                "banner"    => null,
+                "status"    => "active"
+            ]
+        ];
+        Policy::insert($data);
     }
 }

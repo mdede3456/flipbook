@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateFlipBooksTable extends Migration
+class CreateVideosTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,17 +13,17 @@ class CreateFlipBooksTable extends Migration
      */
     public function up()
     {
-        Schema::create('flip_books', function (Blueprint $table) {
+        Schema::create('videos', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger("category_id")->index();
             $table->unsignedBigInteger("author_id")->index();
             $table->text("tag")->nullable();
             $table->string("title")->nullable();
             $table->longText("description")->nullable();
-            $table->string("file")->nullable();
-            $table->enum("unggulan",["ya","tidak"])->default("ya");
-            $table->integer("status")->default(0);
             $table->string("thumbnail")->default("uploads/null.jpg");
+            $table->string("video")->nullable();
+            $table->enum("unggulan", ["ya", "tidak"])->default("ya");
+            $table->integer("status")->default(0);
             $table->softDeletes();
             $table->timestamps();
         });
@@ -36,6 +36,6 @@ class CreateFlipBooksTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('flip_books');
+        Schema::dropIfExists('videos');
     }
 }
