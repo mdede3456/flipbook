@@ -16,7 +16,7 @@ class CreateCategoryFlipbooksTable extends Migration
         Schema::create('category_flipbooks', function (Blueprint $table) {
             $table->id();
             $table->string("name");
-            $table->string("banner")->nullable();
+            $table->string("banner")->default('uploads/category/image.jpg');
             $table->softDeletes();
             $table->timestamps();
         });

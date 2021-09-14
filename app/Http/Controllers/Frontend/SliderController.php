@@ -37,6 +37,7 @@ class SliderController extends Controller
         $validate = Validator::make($request->all(), [
             'title' => 'required',
             'link'  => 'required',
+            'button'    => "required",
             'image' => 'mimes:jpg,jpeg,png', 
         ]);
 
@@ -52,6 +53,7 @@ class SliderController extends Controller
         $condition == 'create'  ? $data = new Slider() : $data = Slider::findOrFail($request->id);
         $data->title = $request->title;
         $data->link = $request->link;
+        $data->button = $request->button;
         $request->image ? $data->image = $this->uploadImage($request, 'image', 'slider') : null; 
         return $this->saveData($data);
     }

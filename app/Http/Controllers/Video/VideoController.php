@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Video;
 
 use App\Http\Controllers\Controller;
+use App\Models\FlipBook;
 use App\Models\Flipbook\CategoryFlipbook;
 use App\Models\Video\Video;
 use Illuminate\Http\Request;
@@ -14,7 +15,8 @@ class VideoController extends Controller
     public function index()
     {
         $video = Video::orderBy("id","desc")->get();
-        return view('admin.video.index',["page" => "Data Video"],compact('video'));
+        $status = FlipBook::STATUS;
+        return view('admin.video.index',["page" => "Data Video"],compact('video','status'));
     }
 
     public function create()
@@ -27,7 +29,15 @@ class VideoController extends Controller
     {
         $category = CategoryFlipbook::orderBy("name","desc")->get();
         $video = Video::findOrFail($id);
-        return view('admin.video.update',["page" => "Edit Video"],compact('category','video'));
+        $unggulan = [
+            'ya'    => "Ya",
+            'tidak' => "Tidak"
+        ];
+        $status = [
+            0       => "Tidak",
+            1       => "Ya"
+        ];
+        return view('admin.video.update',["page" => "Edit Video"],compact('category','video','unggulan','status'));
     }
 
     public function delete($id)
@@ -57,6 +67,7 @@ class VideoController extends Controller
         $data->title = $request->title;
         $data->video = $request->video;
         $data->category_id = $request->category_id;
+        $request->status ? $data->status = $request->status : null;
         $data->author_id = Auth()->user()->id;
         $request->description ? $data->description = $request->description : null;
         $data->unggulan = $request->unggulan;

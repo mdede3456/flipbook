@@ -177,6 +177,9 @@ return [
 
         // User Agent
         Jenssegers\Agent\AgentServiceProvider::class,
+        
+        // Permission
+        Spatie\Permission\PermissionServiceProvider::class,
 
     ],
 

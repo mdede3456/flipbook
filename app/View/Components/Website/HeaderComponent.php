@@ -2,6 +2,8 @@
 
 namespace App\View\Components\Website;
 
+use App\Models\Admin\Setting;
+use App\Models\Flipbook\CategoryFlipbook;
 use Illuminate\View\Component;
 
 class HeaderComponent extends Component
@@ -23,6 +25,8 @@ class HeaderComponent extends Component
      */
     public function render()
     {
-        return view('components.website.header-component');
+        $settings = Setting::first();
+        $category = CategoryFlipbook::orderBy("name","desc")->get();
+        return view('components.website.header-component',compact('settings','category'));
     }
 }

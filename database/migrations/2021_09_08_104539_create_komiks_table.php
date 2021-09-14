@@ -17,7 +17,7 @@ class CreateKomiksTable extends Migration
             $table->id();
             $table->unsignedBigInteger("genre_id")->index();
             $table->text("meta")->nullable();
-            $table->string("thumbnail")->default("uploads/image.jpg");
+            $table->string("thumbnail")->default("uploads/manga/image.jpg");
             $table->string("name");
             $table->enum("status",["ongoing","selesai"])->default("ongoing");
             $table->longText("description")->nullable();

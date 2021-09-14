@@ -17,7 +17,13 @@ class BannerController extends Controller
 
     public function create()
     {
-        return view('admin.banner.create',['page' => "Tambah Web Banner"]);
+        $type = [
+            'home1'     => "Home 1",
+            'home2'     => "Home 2",
+            'majalah'   => "Majalah",
+            'komik'     => "Komik"
+        ];
+        return view('admin.banner.create',['page' => "Tambah Web Banner"],compact('type'));
     }
 
     public function update($id)

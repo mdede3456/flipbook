@@ -12,15 +12,14 @@ class AboutController extends Controller
     public function index()
     {
         $about = About::first();
-        return view('admin.page.index',['page' => "About Us"],compact('about'));
+        return view('admin.page.about',['page' => "About Us"],compact('about'));
     }
 
     public function store(Request $request)
     {
         $validate = Validator::make($request->all(), [
             'title' => 'required',
-            'banner'  => 'mimes:jpg,png,jpeg',
-            'status' => 'required'
+            'banner'  => 'mimes:jpg,png,jpeg', 
         ]);
 
         if ($validate->fails()) {
@@ -34,7 +33,7 @@ class AboutController extends Controller
 
         $data = About::first();
         $data->title = $request->title;
-        $data->status = $request->status;
+        // $data->status = $request->status;
         $request->description ? $data->description = $request->description : null; 
         $request->banner ? $data->banner = $this->uploadImage($request, 'banner', 'page') : null;
         return $this->saveData($data);

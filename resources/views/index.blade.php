@@ -9,176 +9,16 @@
                         <div class="elementor-inner">
                             <div class="elementor-section-wrap">
 
-                                <section class="elementor-section elementor-top-section elementor-element elementor-element-94f9072 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="94f9072" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-row">
-                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4ff9c24" data-id="4ff9c24" data-element_type="column">
-                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                    <div class="elementor-widget-wrap">
-                                                        <div class="elementor-element elementor-element-fa4cfa9 elementor-widget elementor-widget-bwp_slider_homepage" data-id="fa4cfa9" data-element_type="widget" data-widget_type="bwp_slider_homepage.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="bwp-slider-homepage slider-homepage1">
-                                                                    <div class="slick-carousel slick-carousel-center" data-autoplay="true" data-dots="true" data-nav="true" data-columns4="1" data-columns3="1" data-columns2="1" data-columns1="1" data-columns1440="1" data-columns="1">
-                                                                        <div class="item">
-                                                                            <div class="item-content">
-                                                                                <div class="content-image"> <img src="{{asset('frontend/uploads/2021/08/slider1-1.jpg')}}" alt="Image Slider"></div>
-                                                                                <div class="item-info horizontal_start vertical_middle align_center animation-top">
-                                                                                    <div class="content">
-                                                                                        <h2 class="title-slider">Biggest <span>bookstore</span><br> in Europe</h2>
-                                                                                        <div class="description-slider">We deliver books all over the world 10,000+ books in stock</div> <a class="button-slider" href="shop/index.html">Meet OUR BESTSELLER</a>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="item">
-                                                                            <div class="item-content">
-                                                                                <div class="content-image"> <img src="{{asset('frontend/uploads/2021/08/slider1-2.jpg')}}" alt="Image Slider"></div>
-                                                                                <div class="item-info horizontal_start vertical_middle align_center animation-top">
-                                                                                    <div class="content">
-                                                                                        <h2 class="title-slider">Support <span>Local</span><br> Bookstores.</h2>
-                                                                                        <div class="description-slider">$15,343,695.75 raised for local bookstores</div> <a class="button-slider" href="shop/index.html">Meet OUR BESTSELLER</a>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="item">
-                                                                            <div class="item-content">
-                                                                                <div class="content-image"> <img src="{{asset('frontend/uploads/2021/08/slider1-3.jpg')}}" alt="Image Slider"></div>
-                                                                                <div class="item-info horizontal_start vertical_middle align_center animation-top">
-                                                                                    <div class="content">
-                                                                                        <h2 class="title-slider">Bestselling <br><span>Fiction</span> Books</h2>
-                                                                                        <div class="description-slider">Over 120,000 Trustpilot reviews</div> <a class="button-slider" href="shop/index.html">Meet OUR BESTSELLER</a>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="elementor-section elementor-top-section elementor-element elementor-element-e930a9a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e930a9a" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-row">
-                                            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-0b62c7a" data-id="0b62c7a" data-element_type="column">
-                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                    <div class="elementor-widget-wrap">
-                                                        <div class="elementor-element elementor-element-ff21823 elementor-widget elementor-widget-bwp_image" data-id="ff21823" data-element_type="widget" data-widget_type="bwp_image.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="bwp-widget-banner layout-1">
-                                                                    <div class="bg-banner">
-                                                                        <div class="banner-wrapper banners">
-                                                                            <div class="bwp-image  elementor-animation-wobble-horizontal"> <a href="#"><img src="{{asset('frontend/uploads/2021/07/img1-1-1.jpg')}}" alt="Banner Image"></a></div>
-                                                                            <div class="banner-wrapper-infor">
-                                                                                <div class="info">
-                                                                                    <div class="content">
-                                                                                        <h3 class="title-banner">New<br>Realease.</h3> <a class="button" href="#">Shop now</a>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-94b21a0" data-id="94b21a0" data-element_type="column">
-                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                    <div class="elementor-widget-wrap">
-                                                        <div class="elementor-element elementor-element-7415634 elementor-widget elementor-widget-bwp_image" data-id="7415634" data-element_type="widget" data-widget_type="bwp_image.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="bwp-widget-banner layout-1">
-                                                                    <div class="bg-banner">
-                                                                        <div class="banner-wrapper banners">
-                                                                            <div class="bwp-image  elementor-animation-wobble-horizontal"> <a href="#"><img src="{{asset('frontend/uploads/2021/07/img1-2-1.jpg')}}" alt="Banner Image"></a></div>
-                                                                            <div class="banner-wrapper-infor">
-                                                                                <div class="info">
-                                                                                    <div class="content">
-                                                                                        <h3 class="title-banner">Pre Order<br>Now.</h3> <a class="button" href="#">Shop now</a>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-0cbd514" data-id="0cbd514" data-element_type="column">
-                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                    <div class="elementor-widget-wrap">
-                                                        <div class="elementor-element elementor-element-491c973 elementor-widget elementor-widget-bwp_image" data-id="491c973" data-element_type="widget" data-widget_type="bwp_image.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="bwp-widget-banner layout-1">
-                                                                    <div class="bg-banner">
-                                                                        <div class="banner-wrapper banners">
-                                                                            <div class="bwp-image  elementor-animation-wobble-horizontal"> <a href="#"><img src="{{asset('frontend/uploads/2021/07/img1-3-1.jpg')}}" alt="Banner Image"></a></div>
-                                                                            <div class="banner-wrapper-infor">
-                                                                                <div class="info">
-                                                                                    <div class="content">
-                                                                                        <h3 class="title-banner">Top<br>Rated.</h3> <a class="button" href="#">Shop now</a>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="elementor-section elementor-top-section elementor-element elementor-element-498e2b6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="498e2b6" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-row">
-                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-232cc32" data-id="232cc32" data-element_type="column">
-                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                    <div class="elementor-widget-wrap">
-                                                        <section class="elementor-section elementor-inner-section elementor-element elementor-element-d584417 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d584417" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                            <div class="elementor-container elementor-column-gap-default">
-                                                                <div class="elementor-row">
-                                                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-1271bbc" data-id="1271bbc" data-element_type="column">
-                                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                                            <div class="elementor-widget-wrap">
-                                                                                <div class="elementor-element elementor-element-0528b7e elementor-widget elementor-widget-text-editor" data-id="0528b7e" data-element_type="widget" data-widget_type="text-editor.default">
-                                                                                    <div class="elementor-widget-container">
-                                                                                        <div class="elementor-text-editor elementor-clearfix"> More Bang for Your Book</div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="elementor-element elementor-element-9d96280 elementor-widget elementor-widget-heading" data-id="9d96280" data-element_type="widget" data-widget_type="heading.default">
-                                                                                    <div class="elementor-widget-container">
-                                                                                        <h2 class="elementor-heading-title elementor-size-default">20% Off Select Books</h2>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="elementor-element elementor-element-a5fbe67 elementor-align-center elementor-widget elementor-widget-button" data-id="a5fbe67" data-element_type="widget" data-widget_type="button.default">
-                                                                                    <div class="elementor-widget-container">
-                                                                                        <div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">Shop now</span> </span> </a></div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </section>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
+                                {{-- Slider Content --}}
+                                <x-content.slider-component></x-content.slider-component>
+                                {{-- End Slider Content --}}
+
+
+                                {{-- Home Banner 1 --}}
+                                <x-content.home-banner1></x-content.home-banner1>
+                                {{-- End Home Banner 1 --}}
+
+                                {{-- Home Featured --}}
                                 <section class="elementor-section elementor-top-section elementor-element elementor-element-580bf7c elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="580bf7c" data-element_type="section">
                                     <div class="elementor-container elementor-column-gap-default">
                                         <div class="elementor-row">
@@ -187,7 +27,7 @@
                                                     <div class="elementor-widget-wrap">
                                                         <div class="elementor-element elementor-element-74043bc elementor-widget elementor-widget-heading" data-id="74043bc" data-element_type="widget" data-widget_type="heading.default">
                                                             <div class="elementor-widget-container">
-                                                                <h2 class="elementor-heading-title elementor-size-default">Trending on Bookio</h2>
+                                                                <h2 class="elementor-heading-title elementor-size-default">Buku Unggulan </h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -198,7 +38,11 @@
                                                     <div class="elementor-widget-wrap">
                                                         <div class="elementor-element elementor-element-d46224c elementor-align-right elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="d46224c" data-element_type="widget" data-widget_type="button.default">
                                                             <div class="elementor-widget-container">
-                                                                <div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-icon elementor-align-icon-right"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;" xml:space="preserve">
+                                                                <div class="elementor-button-wrapper">
+                                                                    <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                                                        <span class="elementor-button-content-wrapper">
+                                                                            <span class="elementor-button-icon elementor-align-icon-right">
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;" xml:space="preserve">
                                                                                     <polygon points="345.606,107.5 324.394,128.713 418.787,223.107 0,223.107 0,253.107 418.787,253.107 324.394,347.5   345.606,368.713 476.213,238.106 "></polygon>
                                                                                     <g> </g>
                                                                                     <g> </g>
@@ -215,226 +59,11 @@
                                                                                     <g> </g>
                                                                                     <g> </g>
                                                                                     <g> </g>
-                                                                                </svg> </span> <span class="elementor-button-text">View all</span> </span> </a></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="elementor-section elementor-top-section elementor-element elementor-element-63c14bc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="63c14bc" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-row">
-                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1c7c9d3" data-id="1c7c9d3" data-element_type="column">
-                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                    <div class="elementor-widget-wrap">
-                                                        <div class="elementor-element elementor-element-4de8a66 elementor-widget elementor-widget-bwp_product_list" data-id="4de8a66" data-element_type="widget" data-widget_type="bwp_product_list.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div id="bwp_featured_12339649751631299972" class="bwp_product_list slider no-title">
-                                                                    <div class="list-product">
-                                                                        <div class="product-content">
-                                                                            <div class="content-product-list">
-                                                                                <div class="slider products-list grid slick-carousel" data-slidesToScroll="true" data-dots="false" data-nav="1" data-columns4="2" data-columns3="2" data-columns2="3" data-columns1="4" data-columns1440="5" data-columns="6">
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                        <div class="onsale"></div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/the-art-of-fashion/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-2-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-25-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-3989" data-id="3989">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="View products"><a rel="nofollow" href="shop/the-art-of-fashion/index.html" data-quantity="1" data-product_id="3989" data-product_sku="VN00189" class="button product_type_grouped read_more">View products</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="3989" class="quickview quickview-button quickview-3989">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating">
-                                                                                                            <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
-                                                                                                            <div class="review-count"> (1)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/alec-hansen/index.html">Alec Hansen</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/the-art-of-fashion/index.html">The Art of Fashion</a></h3> <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>80.00</bdi></span> &ndash; <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>190.00</bdi></span></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                        <div class="onsale">-13%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/100-selected-poems/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-24-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-8-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16317" data-id="16317">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="indexa69c.html?add-to-cart=16317" data-quantity="1" data-product_id="16317" data-product_sku="D1115" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16317" class="quickview quickview-button quickview-16317">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating none">
-                                                                                                            <div class="star-rating none"></div>
-                                                                                                            <div class="review-count"> (0)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/alyce-kris/index.html">Alyce Kris</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/100-selected-poems/index.html">100 Selected Poems</a></h3> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>400.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>350.00</bdi></span></ins></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                        <div class="onsale">-17%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/life-is-what-you-make-it/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-6-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-14-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16320" data-id="16320">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Read more"><a rel="nofollow" href="shop/life-is-what-you-make-it/index.html" data-quantity="1" data-product_id="16320" data-product_sku="D1118" class="button product_type_simple read_more ajax_add_to_cart">Read more</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16320" class="quickview quickview-button quickview-16320">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                    <div class="product-stock"> <span class="stock">Out Of Stock</span></div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating">
-                                                                                                            <div class="star-rating" role="img" aria-label="Rated 4.50 out of 5"><span style="width:90%">Rated <strong class="rating">4.50</strong> out of 5</span></div>
-                                                                                                            <div class="review-count"> (2)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/glenna-berge/index.html">Glenna Berge</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/life-is-what-you-make-it/index.html">Life is What You Make It</a></h3> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>120.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>100.00</bdi></span></ins></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/heartless-marrisa-meyer/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-5-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-18-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16508" data-id="16508">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Buy product"><a rel="nofollow" href="#" data-quantity="1" data-product_id="16508" data-product_sku="D2300" class="button product_type_external read_more">Buy product</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16508" class="quickview quickview-button quickview-16508">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating none">
-                                                                                                            <div class="star-rating none"></div>
-                                                                                                            <div class="review-count"> (0)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/norene-mayert/index.html">Norene Mayert</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/heartless-marrisa-meyer/index.html">Heartless Marrisa Meyer</a></h3> <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>214.22</bdi></span></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                        <div class="onsale">-7%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/the-untetheres-soul/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-8-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-1-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="countdown">
-                                                                                                        <div class="item-countdown">
-                                                                                                            <div class="product-countdown" data-day="days" data-hour="hours" data-min="mins" data-sec="secs" data-date="1650758399" data-sttime="1616371200" data-cdtime="1650758399" data-id="item_countdown_7740030651631299973"></div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16514" data-id="16514">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="indexa462.html?add-to-cart=16514" data-quantity="1" data-product_id="16514" data-product_sku="D2300-2" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16514" class="quickview quickview-button quickview-16514">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating none">
-                                                                                                            <div class="star-rating none"></div>
-                                                                                                            <div class="review-count"> (0)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/glenna-berge/index.html">Glenna Berge</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/the-untetheres-soul/index.html">The Untetheres Soul</a></h3> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>214.22</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>200.00</bdi></span></ins></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                        <div class="onsale">-4%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/africa-rising/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-18-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-3-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16541" data-id="16541">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="indexd666.html?add-to-cart=16541" data-quantity="1" data-product_id="16541" data-product_sku="D2300-3-2-3" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16541" class="quickview quickview-button quickview-16541">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating">
-                                                                                                            <div class="star-rating" role="img" aria-label="Rated 4.50 out of 5"><span style="width:90%">Rated <strong class="rating">4.50</strong> out of 5</span></div>
-                                                                                                            <div class="review-count"> (2)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/norene-mayert/index.html">Norene Mayert</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/africa-rising/index.html">Africa Rising</a></h3> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>130.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>125.00</bdi></span></ins></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                        <div class="onsale">-10%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/once-upon-a-reunion/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-16-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-7-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16546" data-id="16546">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="index0a14.html?add-to-cart=16546" data-quantity="1" data-product_id="16546" data-product_sku="D2300-3-2-4" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16546" class="quickview quickview-button quickview-16546">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating none">
-                                                                                                            <div class="star-rating none"></div>
-                                                                                                            <div class="review-count"> (0)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/glenna-berge/index.html">Glenna Berge</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/once-upon-a-reunion/index.html">Once Upon A Reunion</a></h3> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>200.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>180.00</bdi></span></ins></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
+                                                                                </svg>
+                                                                            </span>
+                                                                            <span class="elementor-button-text">Lihat Semua</span>
+                                                                        </span>
+                                                                    </a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -444,6 +73,10 @@
                                         </div>
                                     </div>
                                 </section>
+                                <x-content.featured-component></x-content.featured-component>
+                                {{-- End Home Featured --}}
+
+                                {{-- Top Category --}}
                                 <section class="elementor-section elementor-top-section elementor-element elementor-element-ea8927a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ea8927a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-container elementor-column-gap-default">
                                         <div class="elementor-row">
@@ -452,77 +85,19 @@
                                                     <div class="elementor-widget-wrap">
                                                         <div class="elementor-element elementor-element-348cb56 elementor-widget elementor-widget-heading" data-id="348cb56" data-element_type="widget" data-widget_type="heading.default">
                                                             <div class="elementor-widget-container">
-                                                                <h2 class="elementor-heading-title elementor-size-default">Top Categories</h2>
+                                                                <h2 class="elementor-heading-title elementor-size-default">Top Kategori</h2>
                                                             </div>
                                                         </div>
-                                                        <div class="elementor-element elementor-element-ee8e5f6 elementor-widget elementor-widget-bwp_product_categories" data-id="ee8e5f6" data-element_type="widget" data-widget_type="bwp_product_categories.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div id="category_slide_979761731631299973" class="bwp-woo-categories slider">
-                                                                    <div class="content-category slick-carousel" data-dots="0" data-slidesToScroll="true" data-nav="1" data-columns4="1" data-columns3="2" data-columns2="3" data-columns1="4" data-columns1440="5" data-columns="5">
-                                                                        <div class="item item-product-cat">
-                                                                            <div class="item-product-cat-content"> <a href="product-category/adventure/index.html">
-                                                                                    <div class="item-image"> <img class="elementor-animation-wobble-horizontal" src="{{asset('frontend/uploads/2021/07/cate-5.jpg')}}" alt="adventure" /></div>
-                                                                                </a>
-                                                                                <div class="product-cat-content-info">
-                                                                                    <h2 class="item-title"> <a href="product-category/adventure/index.html">Adventure</a></h2>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="item item-product-cat">
-                                                                            <div class="item-product-cat-content"> <a href="product-category/classic-fiction/index.html">
-                                                                                    <div class="item-image"> <img class="elementor-animation-wobble-horizontal" src="{{asset('frontend/uploads/2021/07/cate-6.jpg')}}" alt="classic-fiction" /></div>
-                                                                                </a>
-                                                                                <div class="product-cat-content-info">
-                                                                                    <h2 class="item-title"> <a href="product-category/classic-fiction/index.html">Classic Fiction</a></h2>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="item item-product-cat">
-                                                                            <div class="item-product-cat-content"> <a href="product-category/fantasy/index.html">
-                                                                                    <div class="item-image"> <img class="elementor-animation-wobble-horizontal" src="{{asset('frontend/uploads/2021/07/cate-2.jpg')}}" alt="fantasy" /></div>
-                                                                                </a>
-                                                                                <div class="product-cat-content-info">
-                                                                                    <h2 class="item-title"> <a href="product-category/fantasy/index.html">Fantasy</a></h2>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="item item-product-cat">
-                                                                            <div class="item-product-cat-content"> <a href="product-category/modern-fiction/index.html">
-                                                                                    <div class="item-image"> <img class="elementor-animation-wobble-horizontal" src="{{asset('frontend/uploads/2021/07/cate-3.jpg')}}" alt="modern-fiction" /></div>
-                                                                                </a>
-                                                                                <div class="product-cat-content-info">
-                                                                                    <h2 class="item-title"> <a href="product-category/modern-fiction/index.html">Modern Fiction</a></h2>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="item item-product-cat">
-                                                                            <div class="item-product-cat-content"> <a href="product-category/romance/index.html">
-                                                                                    <div class="item-image"> <img class="elementor-animation-wobble-horizontal" src="{{asset('frontend/uploads/2021/07/cate-1.jpg')}}" alt="romance" /></div>
-                                                                                </a>
-                                                                                <div class="product-cat-content-info">
-                                                                                    <h2 class="item-title"> <a href="product-category/romance/index.html">Romance</a></h2>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="item item-product-cat">
-                                                                            <div class="item-product-cat-content"> <a href="product-category/thriller-and-suspense/index.html">
-                                                                                    <div class="item-image"> <img class="elementor-animation-wobble-horizontal" src="{{asset('frontend/uploads/2021/07/cate-4.jpg')}}" alt="thriller-and-suspense" /></div>
-                                                                                </a>
-                                                                                <div class="product-cat-content-info">
-                                                                                    <h2 class="item-title"> <a href="product-category/thriller-and-suspense/index.html">Thriller and Suspense</a></h2>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                        <x-content.top-category></x-content.top-category>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </section>
+                                {{-- End Top Category --}}
+
+                                {{-- Featured Comic --}}
                                 <section class="elementor-section elementor-top-section elementor-element elementor-element-977841c elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="977841c" data-element_type="section">
                                     <div class="elementor-container elementor-column-gap-default">
                                         <div class="elementor-row">
@@ -531,7 +106,7 @@
                                                     <div class="elementor-widget-wrap">
                                                         <div class="elementor-element elementor-element-d98ec66 elementor-widget elementor-widget-heading" data-id="d98ec66" data-element_type="widget" data-widget_type="heading.default">
                                                             <div class="elementor-widget-container">
-                                                                <h2 class="elementor-heading-title elementor-size-default">Books of the Month</h2>
+                                                                <h2 class="elementor-heading-title elementor-size-default">Komik Ongoing Saat Ini</h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -542,7 +117,11 @@
                                                     <div class="elementor-widget-wrap">
                                                         <div class="elementor-element elementor-element-2f89cf4 elementor-align-right elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="2f89cf4" data-element_type="widget" data-widget_type="button.default">
                                                             <div class="elementor-widget-container">
-                                                                <div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-icon elementor-align-icon-right"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;" xml:space="preserve">
+                                                                <div class="elementor-button-wrapper">
+                                                                    <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                                                        <span class="elementor-button-content-wrapper">
+                                                                            <span class="elementor-button-icon elementor-align-icon-right">
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;" xml:space="preserve">
                                                                                     <polygon points="345.606,107.5 324.394,128.713 418.787,223.107 0,223.107 0,253.107 418.787,253.107 324.394,347.5   345.606,368.713 476.213,238.106 "></polygon>
                                                                                     <g> </g>
                                                                                     <g> </g>
@@ -559,255 +138,11 @@
                                                                                     <g> </g>
                                                                                     <g> </g>
                                                                                     <g> </g>
-                                                                                </svg> </span> <span class="elementor-button-text">View all</span> </span> </a></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="elementor-section elementor-top-section elementor-element elementor-element-b0e5239 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b0e5239" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-row">
-                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cf4b0c5" data-id="cf4b0c5" data-element_type="column">
-                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                    <div class="elementor-widget-wrap">
-                                                        <div class="elementor-element elementor-element-4aa8746 elementor-widget elementor-widget-bwp_product_list" data-id="4aa8746" data-element_type="widget" data-widget_type="bwp_product_list.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div id="bwp_bestsales_18167332381631299973" class="bwp_product_list slider no-title">
-                                                                    <div class="list-product">
-                                                                        <div class="product-content">
-                                                                            <div class="content-product-list">
-                                                                                <div class="slider products-list grid slick-carousel" data-slidesToScroll="true" data-dots="false" data-nav="0" data-columns4="1" data-columns3="1" data-columns2="1" data-columns1="2" data-columns1440="2" data-columns="2">
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product3 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'></div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/cup-cake-diares/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-72-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-28-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-3986" data-id="3986">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'> <span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="3986" class="quickview quickview-button quickview-3986">Quick View <i class="icon-view"></i></a></span></div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating none">
-                                                                                                            <div class="star-rating none"></div>
-                                                                                                            <div class="review-count"> (0)</div>
-                                                                                                        </div>
-                                                                                                        <h3 class="product-title"><a href="shop/cup-cake-diares/index.html">Cup Cake Diares</a></h3>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/alec-hansen/index.html">Alec Hansen</a></span></div> <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>115.00</bdi></span></span>
-                                                                                                        <div class="description">
-                                                                                                            <ul>
-                                                                                                                <li>For kids</li>
-                                                                                                                <li>First published in 2014</li>
-                                                                                                                <li>Copyright by Wpbingo</li>
-                                                                                                            </ul>
-                                                                                                        </div>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="index650d.html?add-to-cart=3986" data-quantity="1" data-product_id="3986" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product3 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="onsale">-7%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/frank-enstein/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-11-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-25-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-20853" data-id="20853">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'> <span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="20853" class="quickview quickview-button quickview-20853">Quick View <i class="icon-view"></i></a></span></div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating none">
-                                                                                                            <div class="star-rating none"></div>
-                                                                                                            <div class="review-count"> (0)</div>
-                                                                                                        </div>
-                                                                                                        <h3 class="product-title"><a href="shop/frank-enstein/index.html">Frank Enstein</a></h3>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/alyce-kris/index.html">Alyce Kris</a></span></div> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>300.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>280.00</bdi></span></ins></span>
-                                                                                                        <div class="description">
-                                                                                                            <ul>
-                                                                                                                <li>For kids</li>
-                                                                                                                <li>First published in 2014</li>
-                                                                                                                <li>Copyright by Wpbingo</li>
-                                                                                                            </ul>
-                                                                                                        </div>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="indexc6aa.html?add-to-cart=20853" data-quantity="1" data-product_id="20853" data-product_sku="D2015" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product3 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                        <div class="onsale">-13%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/100-selected-poems/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-24-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-8-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16317" data-id="16317">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'> <span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16317" class="quickview quickview-button quickview-16317">Quick View <i class="icon-view"></i></a></span></div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating none">
-                                                                                                            <div class="star-rating none"></div>
-                                                                                                            <div class="review-count"> (0)</div>
-                                                                                                        </div>
-                                                                                                        <h3 class="product-title"><a href="shop/100-selected-poems/index.html">100 Selected Poems</a></h3>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/alyce-kris/index.html">Alyce Kris</a></span></div> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>400.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>350.00</bdi></span></ins></span>
-                                                                                                        <div class="description">
-                                                                                                            <ul>
-                                                                                                                <li>For kids</li>
-                                                                                                                <li>First published in 2014</li>
-                                                                                                                <li>Copyright by Wpbingo</li>
-                                                                                                            </ul>
-                                                                                                        </div>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="indexa69c.html?add-to-cart=16317" data-quantity="1" data-product_id="16317" data-product_sku="D1115" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product3 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                        <div class="onsale">-4%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/africa-rising/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-18-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-3-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16541" data-id="16541">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'> <span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16541" class="quickview quickview-button quickview-16541">Quick View <i class="icon-view"></i></a></span></div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating">
-                                                                                                            <div class="star-rating" role="img" aria-label="Rated 4.50 out of 5"><span style="width:90%">Rated <strong class="rating">4.50</strong> out of 5</span></div>
-                                                                                                            <div class="review-count"> (2)</div>
-                                                                                                        </div>
-                                                                                                        <h3 class="product-title"><a href="shop/africa-rising/index.html">Africa Rising</a></h3>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/norene-mayert/index.html">Norene Mayert</a></span></div> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>130.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>125.00</bdi></span></ins></span>
-                                                                                                        <div class="description">
-                                                                                                            <ul>
-                                                                                                                <li>For kids</li>
-                                                                                                                <li>First published in 2014</li>
-                                                                                                                <li>Copyright by Wpbingo</li>
-                                                                                                            </ul>
-                                                                                                        </div>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="indexd666.html?add-to-cart=16541" data-quantity="1" data-product_id="16541" data-product_sku="D2300-3-2-3" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product3 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'></div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/the-still-life/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-25-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-4-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16316" data-id="16316">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'> <span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16316" class="quickview quickview-button quickview-16316">Quick View <i class="icon-view"></i></a></span></div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating none">
-                                                                                                            <div class="star-rating none"></div>
-                                                                                                            <div class="review-count"> (0)</div>
-                                                                                                        </div>
-                                                                                                        <h3 class="product-title"><a href="shop/the-still-life/index.html">The Still Life</a></h3>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/glenna-berge/index.html">Glenna Berge</a></span></div> <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>100.00</bdi></span></span>
-                                                                                                        <div class="description">
-                                                                                                            <ul>
-                                                                                                                <li>For kids</li>
-                                                                                                                <li>First published in 2014</li>
-                                                                                                                <li>Copyright by Wpbingo</li>
-                                                                                                            </ul>
-                                                                                                        </div>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="index7ecb.html?add-to-cart=16316" data-quantity="1" data-product_id="16316" data-product_sku="D1114" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product3 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="onsale">-23%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/flovely-and-unicom-erna/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-4-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-22-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16588" data-id="16588">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'> <span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16588" class="quickview quickview-button quickview-16588">Quick View <i class="icon-view"></i></a></span></div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating none">
-                                                                                                            <div class="star-rating none"></div>
-                                                                                                            <div class="review-count"> (0)</div>
-                                                                                                        </div>
-                                                                                                        <h3 class="product-title"><a href="shop/flovely-and-unicom-erna/index.html">Flovely and Unicom Erna</a></h3>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/seamus-rosenbaum/index.html">Seamus Rosenbaum</a></span></div> <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>100.00</bdi></span> &ndash; <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>110.00</bdi></span></span>
-                                                                                                        <div class="description">
-                                                                                                            <ul>
-                                                                                                                <li>For kids</li>
-                                                                                                                <li>First published in 2014</li>
-                                                                                                                <li>Copyright by Wpbingo</li>
-                                                                                                            </ul>
-                                                                                                        </div>
-                                                                                                        <div data-title="Select options"><a rel="nofollow" href="shop/flovely-and-unicom-erna/index.html" data-quantity="1" data-product_id="16588" data-product_sku="D2409" class="button product_type_variable add_to_cart_button">Select options</a></div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product3 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                        <div class="onsale"></div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/the-art-of-fashion/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-2-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-25-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-3989" data-id="3989">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'> <span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="3989" class="quickview quickview-button quickview-3989">Quick View <i class="icon-view"></i></a></span></div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating">
-                                                                                                            <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
-                                                                                                            <div class="review-count"> (1)</div>
-                                                                                                        </div>
-                                                                                                        <h3 class="product-title"><a href="shop/the-art-of-fashion/index.html">The Art of Fashion</a></h3>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/alec-hansen/index.html">Alec Hansen</a></span></div> <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>80.00</bdi></span> &ndash; <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>190.00</bdi></span></span>
-                                                                                                        <div class="description">
-                                                                                                            <ul>
-                                                                                                                <li>For kids</li>
-                                                                                                                <li>First published in 2014</li>
-                                                                                                                <li>Copyright by Wpbingo</li>
-                                                                                                            </ul>
-                                                                                                        </div>
-                                                                                                        <div data-title="View products"><a rel="nofollow" href="shop/the-art-of-fashion/index.html" data-quantity="1" data-product_id="3989" data-product_sku="VN00189" class="button product_type_grouped read_more">View products</a></div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
+                                                                                </svg>
+                                                                            </span>
+                                                                            <span class="elementor-button-text">Lihat Semua</span>
+                                                                        </span>
+                                                                    </a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -817,45 +152,15 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section class="elementor-section elementor-top-section elementor-element elementor-element-8259287 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8259287" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-row">
-                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9b63071" data-id="9b63071" data-element_type="column">
-                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                    <div class="elementor-widget-wrap">
-                                                        <section class="elementor-section elementor-inner-section elementor-element elementor-element-efe4c1e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="efe4c1e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                            <div class="elementor-container elementor-column-gap-default">
-                                                                <div class="elementor-row">
-                                                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-7994ee1" data-id="7994ee1" data-element_type="column">
-                                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                                            <div class="elementor-widget-wrap">
-                                                                                <div class="elementor-element elementor-element-fcb63fa elementor-widget elementor-widget-heading" data-id="fcb63fa" data-element_type="widget" data-widget_type="heading.default">
-                                                                                    <div class="elementor-widget-container">
-                                                                                        <h2 class="elementor-heading-title elementor-size-default">Book Your<br> Own Adventures</h2>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="elementor-element elementor-element-0b6640c elementor-widget elementor-widget-text-editor" data-id="0b6640c" data-element_type="widget" data-widget_type="text-editor.default">
-                                                                                    <div class="elementor-widget-container">
-                                                                                        <div class="elementor-text-editor elementor-clearfix"> More Bang for Your Book</div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="elementor-element elementor-element-69434f1 elementor-align-center elementor-widget elementor-widget-button" data-id="69434f1" data-element_type="widget" data-widget_type="button.default">
-                                                                                    <div class="elementor-widget-container">
-                                                                                        <div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">Shop now</span> </span> </a></div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </section>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
+                                <x-content.comic-featured></x-content.comic-featured>
+                                {{-- End Featured Comic --}}
+
+
+                                {{-- Home Banner 2 --}}
+                                <x-content.home-banner2></x-content.home-banner2>
+                                {{-- End Home Banner 2 --}}
+
+                                {{-- Top Book --}}
                                 <section class="elementor-section elementor-top-section elementor-element elementor-element-eca011a elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="eca011a" data-element_type="section">
                                     <div class="elementor-container elementor-column-gap-default">
                                         <div class="elementor-row">
@@ -864,7 +169,7 @@
                                                     <div class="elementor-widget-wrap">
                                                         <div class="elementor-element elementor-element-0243c68 elementor-widget elementor-widget-heading" data-id="0243c68" data-element_type="widget" data-widget_type="heading.default">
                                                             <div class="elementor-widget-container">
-                                                                <h2 class="elementor-heading-title elementor-size-default">Travel the World from Home</h2>
+                                                                <h2 class="elementor-heading-title elementor-size-default">Top Book</h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -875,7 +180,11 @@
                                                     <div class="elementor-widget-wrap">
                                                         <div class="elementor-element elementor-element-8b072d4 elementor-align-right elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="8b072d4" data-element_type="widget" data-widget_type="button.default">
                                                             <div class="elementor-widget-container">
-                                                                <div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-icon elementor-align-icon-right"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;" xml:space="preserve">
+                                                                <div class="elementor-button-wrapper">
+                                                                    <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                                                        <span class="elementor-button-content-wrapper">
+                                                                            <span class="elementor-button-icon elementor-align-icon-right">
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;" xml:space="preserve">
                                                                                     <polygon points="345.606,107.5 324.394,128.713 418.787,223.107 0,223.107 0,253.107 418.787,253.107 324.394,347.5   345.606,368.713 476.213,238.106 "></polygon>
                                                                                     <g> </g>
                                                                                     <g> </g>
@@ -892,335 +201,11 @@
                                                                                     <g> </g>
                                                                                     <g> </g>
                                                                                     <g> </g>
-                                                                                </svg> </span> <span class="elementor-button-text">View all</span> </span> </a></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="elementor-section elementor-top-section elementor-element elementor-element-f7fa150 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f7fa150" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-row">
-                                            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-03681e5" data-id="03681e5" data-element_type="column">
-                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                    <div class="elementor-widget-wrap">
-                                                        <div class="elementor-element elementor-element-00fa472 elementor-widget elementor-widget-bwp_product_list" data-id="00fa472" data-element_type="widget" data-widget_type="bwp_product_list.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div id="bwp_toprated_21106229761631299973" class="bwp_product_list slider no-title">
-                                                                    <div class="list-product">
-                                                                        <div class="product-content">
-                                                                            <div class="content-product-list">
-                                                                                <div class="slider products-list grid slick-carousel" data-slidesToScroll="true" data-dots="false" data-nav="0" data-columns4="1" data-columns3="1" data-columns2="1" data-columns1="1" data-columns1440="1" data-columns="1">
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                        <div class="onsale"></div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/the-art-of-fashion/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-2-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-25-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-3989" data-id="3989">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="View products"><a rel="nofollow" href="shop/the-art-of-fashion/index.html" data-quantity="1" data-product_id="3989" data-product_sku="VN00189" class="button product_type_grouped read_more">View products</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="3989" class="quickview quickview-button quickview-3989">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating">
-                                                                                                            <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
-                                                                                                            <div class="review-count"> (1)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/alec-hansen/index.html">Alec Hansen</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/the-art-of-fashion/index.html">The Art of Fashion</a></h3> <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>80.00</bdi></span> &ndash; <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>190.00</bdi></span></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                        <div class="onsale">-4%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/africa-rising/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-18-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-3-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16541" data-id="16541">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="indexd666.html?add-to-cart=16541" data-quantity="1" data-product_id="16541" data-product_sku="D2300-3-2-3" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16541" class="quickview quickview-button quickview-16541">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating">
-                                                                                                            <div class="star-rating" role="img" aria-label="Rated 4.50 out of 5"><span style="width:90%">Rated <strong class="rating">4.50</strong> out of 5</span></div>
-                                                                                                            <div class="review-count"> (2)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/norene-mayert/index.html">Norene Mayert</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/africa-rising/index.html">Africa Rising</a></h3> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>130.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>125.00</bdi></span></ins></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                        <div class="onsale">-10%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/once-upon-a-reunion/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-16-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-7-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16546" data-id="16546">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="index0a14.html?add-to-cart=16546" data-quantity="1" data-product_id="16546" data-product_sku="D2300-3-2-4" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16546" class="quickview quickview-button quickview-16546">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating none">
-                                                                                                            <div class="star-rating none"></div>
-                                                                                                            <div class="review-count"> (0)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/glenna-berge/index.html">Glenna Berge</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/once-upon-a-reunion/index.html">Once Upon A Reunion</a></h3> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>200.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>180.00</bdi></span></ins></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-940b54c" data-id="940b54c" data-element_type="column">
-                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                    <div class="elementor-widget-wrap">
-                                                        <div class="elementor-element elementor-element-563662a elementor-widget elementor-widget-bwp_product_list" data-id="563662a" data-element_type="widget" data-widget_type="bwp_product_list.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div id="bwp_default_1350274541631299973" class="bwp_product_list slider no-title">
-                                                                    <div class="list-product">
-                                                                        <div class="product-content">
-                                                                            <div class="content-product-list">
-                                                                                <div class="slider products-list grid slick-carousel" data-slidesToScroll="true" data-dots="false" data-nav="0" data-columns4="2" data-columns3="2" data-columns2="2" data-columns1="2" data-columns1440="3" data-columns="4">
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="onsale">-10%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/healed-new-life/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-7-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-17-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16536" data-id="16536">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="indexf04a.html?add-to-cart=16536" data-quantity="1" data-product_id="16536" data-product_sku="D2300-3-2-2" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16536" class="quickview quickview-button quickview-16536">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating">
-                                                                                                            <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
-                                                                                                            <div class="review-count"> (1)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/alyce-kris/index.html">Alyce Kris</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/healed-new-life/index.html">Healed New Life</a></h3> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>100.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>90.00</bdi></span></ins></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                        <div class="onsale"></div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/the-art-of-fashion/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-2-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-25-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-3989" data-id="3989">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="View products"><a rel="nofollow" href="shop/the-art-of-fashion/index.html" data-quantity="1" data-product_id="3989" data-product_sku="VN00189" class="button product_type_grouped read_more">View products</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="3989" class="quickview quickview-button quickview-3989">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating">
-                                                                                                            <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
-                                                                                                            <div class="review-count"> (1)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/alec-hansen/index.html">Alec Hansen</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/the-art-of-fashion/index.html">The Art of Fashion</a></h3> <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>80.00</bdi></span> &ndash; <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>190.00</bdi></span></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                        <div class="onsale">-4%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/africa-rising/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-18-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-3-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16541" data-id="16541">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="indexd666.html?add-to-cart=16541" data-quantity="1" data-product_id="16541" data-product_sku="D2300-3-2-3" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16541" class="quickview quickview-button quickview-16541">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating">
-                                                                                                            <div class="star-rating" role="img" aria-label="Rated 4.50 out of 5"><span style="width:90%">Rated <strong class="rating">4.50</strong> out of 5</span></div>
-                                                                                                            <div class="review-count"> (2)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/norene-mayert/index.html">Norene Mayert</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/africa-rising/index.html">Africa Rising</a></h3> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>130.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>125.00</bdi></span></ins></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                        <div class="onsale">-17%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/life-is-what-you-make-it/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-6-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-14-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16320" data-id="16320">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Read more"><a rel="nofollow" href="shop/life-is-what-you-make-it/index.html" data-quantity="1" data-product_id="16320" data-product_sku="D1118" class="button product_type_simple read_more ajax_add_to_cart">Read more</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16320" class="quickview quickview-button quickview-16320">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                    <div class="product-stock"> <span class="stock">Out Of Stock</span></div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating">
-                                                                                                            <div class="star-rating" role="img" aria-label="Rated 4.50 out of 5"><span style="width:90%">Rated <strong class="rating">4.50</strong> out of 5</span></div>
-                                                                                                            <div class="review-count"> (2)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/glenna-berge/index.html">Glenna Berge</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/life-is-what-you-make-it/index.html">Life is What You Make It</a></h3> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>120.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>100.00</bdi></span></ins></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'></div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/brave-heart/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-21-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-15-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16521" data-id="16521">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="indexd1f8.html?add-to-cart=16521" data-quantity="1" data-product_id="16521" data-product_sku="D2300-3-1" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16521" class="quickview quickview-button quickview-16521">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating">
-                                                                                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5"><span style="width:80%">Rated <strong class="rating">4.00</strong> out of 5</span></div>
-                                                                                                            <div class="review-count"> (1)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/seamus-rosenbaum/index.html">Seamus Rosenbaum</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/brave-heart/index.html">Brave Heart</a></h3> <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="onsale">-20%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/a-god-who-hate-women/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-9-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-4-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-24660" data-id="24660">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="indexeb72.html?add-to-cart=24660" data-quantity="1" data-product_id="24660" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="24660" class="quickview quickview-button quickview-24660">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating none">
-                                                                                                            <div class="star-rating none"></div>
-                                                                                                            <div class="review-count"> (0)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/sabela-hupter/index.html">Sabela Hupter</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/a-god-who-hate-women/index.html">A God Who Hate Women</a></h3> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>50.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>40.00</bdi></span></ins></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="onsale">-7%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/hans-christian-andersen/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-29-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2021/04/img_0_0_0-1-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-20902" data-id="20902">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="indexfcc5.html?add-to-cart=20902" data-quantity="1" data-product_id="20902" data-product_sku="D2100" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="20902" class="quickview quickview-button quickview-20902">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating none">
-                                                                                                            <div class="star-rating none"></div>
-                                                                                                            <div class="review-count"> (0)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/sabela-hupter/index.html">Sabela Hupter</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/hans-christian-andersen/index.html">Hans Christian Andersen</a></h3> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>300.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>280.00</bdi></span></ins></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="onsale">-7%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/castle-in-the-sky/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-10-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-4-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-20857" data-id="20857">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="indexfa64.html?add-to-cart=20857" data-quantity="1" data-product_id="20857" data-product_sku="D2018" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="20857" class="quickview quickview-button quickview-20857">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating none">
-                                                                                                            <div class="star-rating none"></div>
-                                                                                                            <div class="review-count"> (0)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/sabela-hupter/index.html">Sabela Hupter</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/castle-in-the-sky/index.html">Castle In The Sky</a></h3> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>300.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>280.00</bdi></span></ins></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
+                                                                                </svg>
+                                                                            </span>
+                                                                            <span class="elementor-button-text">Lihat Semua</span>
+                                                                        </span>
+                                                                    </a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1230,62 +215,14 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section class="elementor-section elementor-top-section elementor-element elementor-element-6e1a9a7 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="6e1a9a7" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-row">
-                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e554f5b" data-id="e554f5b" data-element_type="column">
-                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                    <div class="elementor-widget-wrap">
-                                                        <div class="elementor-element elementor-element-af80744 elementor-widget elementor-widget-bwp_slider" data-id="af80744" data-element_type="widget" data-widget_type="bwp_slider.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="bwp-slider default">
-                                                                    <div class="slick-carousel slick-carousel-center" data-dots="false" data-nav="true" data-columns4="1" data-columns3="1" data-columns2="1" data-columns1="1" data-columns1440="1" data-columns="1">
-                                                                        <div class="item">
-                                                                            <div class="item-content">
-                                                                                <div class="content-image"> <a href="shop/index.html"><img class="elementor-animation-wobble-vertical" src="{{asset('frontend/uploads/2021/07/img1-6-1.jpg')}}" alt="Image Slider"></a></div>
-                                                                                <div class="content-info">
-                                                                                    <div class="content">
-                                                                                        <h2 class="title-slider">100 Books of Summer for Teens</h2>
-                                                                                        <div class="subtitle-slider">Your Next #BookTok Read is Here</div>
-                                                                                        <div class="button-slider"><a href="shop/index.html">Explore now</a></div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="item">
-                                                                            <div class="item-content">
-                                                                                <div class="content-image"> <a href="shop/index.html"><img class="elementor-animation-wobble-vertical" src="{{asset('frontend/uploads/2021/08/img1-8-1.jpg')}}" alt="Image Slider"></a></div>
-                                                                                <div class="content-info">
-                                                                                    <div class="content">
-                                                                                        <h2 class="title-slider">Book Your Own Adventures</h2>
-                                                                                        <div class="subtitle-slider">Your Next #BookTok Read is Here</div>
-                                                                                        <div class="button-slider"><a href="shop/index.html">Explore now</a></div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="item">
-                                                                            <div class="item-content">
-                                                                                <div class="content-image"> <a href="shop/index.html"><img class="elementor-animation-wobble-vertical" src="{{asset('frontend/uploads/2021/08/img1-7-1.jpg')}}" alt="Image Slider"></a></div>
-                                                                                <div class="content-info">
-                                                                                    <div class="content">
-                                                                                        <h2 class="title-slider">50% Off Select Books</h2>
-                                                                                        <div class="subtitle-slider">Your Next #BookTok Read is Here</div>
-                                                                                        <div class="button-slider"><a href="shop/index.html">Explore now</a></div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
+                                <x-content.top-book></x-content.top-book>
+                                {{-- End Top Book --}}
+
+                                {{-- Top Video --}}
+                                <x-content.top-video></x-content.top-video>
+                                {{-- End Top Video --}}
+
+{{-- Top Comic --}}
                                 <section class="elementor-section elementor-top-section elementor-element elementor-element-648dc9c elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="648dc9c" data-element_type="section">
                                     <div class="elementor-container elementor-column-gap-default">
                                         <div class="elementor-row">
@@ -1294,7 +231,7 @@
                                                     <div class="elementor-widget-wrap">
                                                         <div class="elementor-element elementor-element-53233f7 elementor-widget elementor-widget-heading" data-id="53233f7" data-element_type="widget" data-widget_type="heading.default">
                                                             <div class="elementor-widget-container">
-                                                                <h2 class="elementor-heading-title elementor-size-default">Bookio Top Books</h2>
+                                                                <h2 class="elementor-heading-title elementor-size-default">Top Comic's</h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1305,7 +242,11 @@
                                                     <div class="elementor-widget-wrap">
                                                         <div class="elementor-element elementor-element-1fa6bce elementor-align-right elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="1fa6bce" data-element_type="widget" data-widget_type="button.default">
                                                             <div class="elementor-widget-container">
-                                                                <div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-icon elementor-align-icon-right"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;" xml:space="preserve">
+                                                                <div class="elementor-button-wrapper">
+                                                                    <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                                                        <span class="elementor-button-content-wrapper">
+                                                                            <span class="elementor-button-icon elementor-align-icon-right">
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;" xml:space="preserve">
                                                                                     <polygon points="345.606,107.5 324.394,128.713 418.787,223.107 0,223.107 0,253.107 418.787,253.107 324.394,347.5   345.606,368.713 476.213,238.106 "></polygon>
                                                                                     <g> </g>
                                                                                     <g> </g>
@@ -1322,216 +263,11 @@
                                                                                     <g> </g>
                                                                                     <g> </g>
                                                                                     <g> </g>
-                                                                                </svg> </span> <span class="elementor-button-text">View all</span> </span> </a></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="elementor-section elementor-top-section elementor-element elementor-element-ca68a0f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ca68a0f" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-row">
-                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fdf8453" data-id="fdf8453" data-element_type="column">
-                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                    <div class="elementor-widget-wrap">
-                                                        <div class="elementor-element elementor-element-9faa295 elementor-widget elementor-widget-bwp_product_list" data-id="9faa295" data-element_type="widget" data-widget_type="bwp_product_list.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div id="bwp_toprated_20824383841631299973" class="bwp_product_list slider no-title">
-                                                                    <div class="list-product">
-                                                                        <div class="product-content">
-                                                                            <div class="content-product-list">
-                                                                                <div class="slider products-list grid slick-carousel" data-slidesToScroll="true" data-dots="false" data-nav="1" data-columns4="2" data-columns3="2" data-columns2="3" data-columns1="4" data-columns1440="5" data-columns="6">
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="onsale">-10%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/healed-new-life/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-7-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-17-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16536" data-id="16536">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="indexf04a.html?add-to-cart=16536" data-quantity="1" data-product_id="16536" data-product_sku="D2300-3-2-2" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16536" class="quickview quickview-button quickview-16536">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating">
-                                                                                                            <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
-                                                                                                            <div class="review-count"> (1)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/alyce-kris/index.html">Alyce Kris</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/healed-new-life/index.html">Healed New Life</a></h3> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>100.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>90.00</bdi></span></ins></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                        <div class="onsale"></div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/the-art-of-fashion/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-2-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-25-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-3989" data-id="3989">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="View products"><a rel="nofollow" href="shop/the-art-of-fashion/index.html" data-quantity="1" data-product_id="3989" data-product_sku="VN00189" class="button product_type_grouped read_more">View products</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="3989" class="quickview quickview-button quickview-3989">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating">
-                                                                                                            <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
-                                                                                                            <div class="review-count"> (1)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/alec-hansen/index.html">Alec Hansen</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/the-art-of-fashion/index.html">The Art of Fashion</a></h3> <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>80.00</bdi></span> &ndash; <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>190.00</bdi></span></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                        <div class="onsale">-4%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/africa-rising/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-18-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-3-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16541" data-id="16541">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="indexd666.html?add-to-cart=16541" data-quantity="1" data-product_id="16541" data-product_sku="D2300-3-2-3" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16541" class="quickview quickview-button quickview-16541">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating">
-                                                                                                            <div class="star-rating" role="img" aria-label="Rated 4.50 out of 5"><span style="width:90%">Rated <strong class="rating">4.50</strong> out of 5</span></div>
-                                                                                                            <div class="review-count"> (2)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/norene-mayert/index.html">Norene Mayert</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/africa-rising/index.html">Africa Rising</a></h3> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>130.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>125.00</bdi></span></ins></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                                                        <div class="onsale">-17%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/life-is-what-you-make-it/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-6-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-14-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16320" data-id="16320">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Read more"><a rel="nofollow" href="shop/life-is-what-you-make-it/index.html" data-quantity="1" data-product_id="16320" data-product_sku="D1118" class="button product_type_simple read_more ajax_add_to_cart">Read more</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16320" class="quickview quickview-button quickview-16320">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                    <div class="product-stock"> <span class="stock">Out Of Stock</span></div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating">
-                                                                                                            <div class="star-rating" role="img" aria-label="Rated 4.50 out of 5"><span style="width:90%">Rated <strong class="rating">4.50</strong> out of 5</span></div>
-                                                                                                            <div class="review-count"> (2)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/glenna-berge/index.html">Glenna Berge</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/life-is-what-you-make-it/index.html">Life is What You Make It</a></h3> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>120.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>100.00</bdi></span></ins></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'></div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/brave-heart/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-21-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-15-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-16521" data-id="16521">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="indexd1f8.html?add-to-cart=16521" data-quantity="1" data-product_id="16521" data-product_sku="D2300-3-1" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="16521" class="quickview quickview-button quickview-16521">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating">
-                                                                                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5"><span style="width:80%">Rated <strong class="rating">4.00</strong> out of 5</span></div>
-                                                                                                            <div class="review-count"> (1)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/seamus-rosenbaum/index.html">Seamus Rosenbaum</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/brave-heart/index.html">Brave Heart</a></h3> <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="onsale">-20%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/a-god-who-hate-women/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-9-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-4-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-24660" data-id="24660">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="indexeb72.html?add-to-cart=24660" data-quantity="1" data-product_id="24660" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="24660" class="quickview quickview-button quickview-24660">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating none">
-                                                                                                            <div class="star-rating none"></div>
-                                                                                                            <div class="review-count"> (0)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/sabela-hupter/index.html">Sabela Hupter</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/a-god-who-hate-women/index.html">A God Who Hate Women</a></h3> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>50.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>40.00</bdi></span></ins></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="item-product">
-                                                                                        <div class="items">
-                                                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                                                <div class="products-thumb">
-                                                                                                    <div class='product-lable'>
-                                                                                                        <div class="onsale">-7%</div>
-                                                                                                    </div>
-                                                                                                    <div class="product-thumb-hover"><a href="shop/hans-christian-andersen/index.html" class="woocommerce-LoopProduct-link"><img width="480" height="693" src="{{asset('frontend/uploads/2018/05/Image-29-480x693.jpg')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" /><img width="480" height="693" src="{{asset('frontend/uploads/2021/04/img_0_0_0-1-480x693.jpg')}}" class="hover-image back" alt="" loading="lazy" /></a></div>
-                                                                                                    <div class="woosw-wishlist" data-title="Wishlist"><button class="woosw-btn woosw-btn-20902" data-id="20902">Add to wishlist</button></div>
-                                                                                                    <div class='product-button'>
-                                                                                                        <div data-title="Add to cart"><a rel="nofollow" href="indexfcc5.html?add-to-cart=20902" data-quantity="1" data-product_id="20902" data-product_sku="D2100" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a></div><span class="product-quickview"><a href="#" data-title="Quick View" data-product_id="20902" class="quickview quickview-button quickview-20902">Quick View <i class="icon-view"></i></a></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="products-content">
-                                                                                                    <div class="contents">
-                                                                                                        <div class="rating none">
-                                                                                                            <div class="star-rating none"></div>
-                                                                                                            <div class="review-count"> (0)</div>
-                                                                                                        </div>
-                                                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/sabela-hupter/index.html">Sabela Hupter</a></span></div>
-                                                                                                        <h3 class="product-title"><a href="shop/hans-christian-andersen/index.html">Hans Christian Andersen</a></h3> <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>300.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>280.00</bdi></span></ins></span>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
+                                                                                </svg>
+                                                                            </span>
+                                                                            <span class="elementor-button-text">Lihat Semua</span>
+                                                                        </span>
+                                                                    </a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1541,175 +277,11 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section class="elementor-section elementor-top-section elementor-element elementor-element-9120a9e elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="9120a9e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-row">
-                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-00b31b5" data-id="00b31b5" data-element_type="column">
-                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                    <div class="elementor-widget-wrap">
-                                                        <section class="elementor-section elementor-inner-section elementor-element elementor-element-dfe659e marginleft-auto elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="dfe659e" data-element_type="section">
-                                                            <div class="elementor-container elementor-column-gap-default">
-                                                                <div class="elementor-row">
-                                                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-b62ce5f" data-id="b62ce5f" data-element_type="column">
-                                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                                            <div class="elementor-widget-wrap">
-                                                                                <div class="elementor-element elementor-element-306756b elementor-widget elementor-widget-text-editor" data-id="306756b" data-element_type="widget" data-widget_type="text-editor.default">
-                                                                                    <div class="elementor-widget-container">
-                                                                                        <div class="elementor-text-editor elementor-clearfix">
-                                                                                            <p>Welcome to the Wonderful World of Books</p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="elementor-element elementor-element-c1734e8 elementor-widget elementor-widget-heading" data-id="c1734e8" data-element_type="widget" data-widget_type="heading.default">
-                                                                                    <div class="elementor-widget-container">
-                                                                                        <h2 class="elementor-heading-title elementor-size-default">Cheap Books, <br>Fantastic Choice</h2>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="elementor-element elementor-element-f7ce880 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="f7ce880" data-element_type="widget" data-widget_type="divider.default">
-                                                                                    <div class="elementor-widget-container">
-                                                                                        <div class="elementor-divider"> <span class="elementor-divider-separator"> </span></div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="elementor-element elementor-element-6c1162b elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="6c1162b" data-element_type="widget" data-widget_type="text-editor.default">
-                                                                                    <div class="elementor-widget-container">
-                                                                                        <div class="elementor-text-editor elementor-clearfix"> If you’re looking for great value second hand books, then World of Books is the place for you.
-                                                                                            As you may already know, we aren’t like other online book stores. For starters, we don’t believe that books should only
-                                                                                            be read once, or have a single owner. Literature should endure and be continually recycled, which is why we help millions of used books find new homes every year.</div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="elementor-element elementor-element-7e440fc elementor-widget elementor-widget-button" data-id="7e440fc" data-element_type="widget" data-widget_type="button.default">
-                                                                                    <div class="elementor-widget-container">
-                                                                                        <div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">Learn more</span> </span> </a></div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </section>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-83d3842 elementor-hidden-phone" data-id="83d3842" data-element_type="column">
-                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                    <div class="elementor-widget-wrap">
-                                                        <div class="elementor-element elementor-element-1e4e20d elementor-hidden-phone elementor-widget elementor-widget-spacer" data-id="1e4e20d" data-element_type="widget" data-widget_type="spacer.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="elementor-spacer">
-                                                                    <div class="elementor-spacer-inner"></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="elementor-section elementor-top-section elementor-element elementor-element-5fd0a36 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5fd0a36" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-row">
-                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0fe61d4" data-id="0fe61d4" data-element_type="column">
-                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                    <div class="elementor-widget-wrap">
-                                                        <div class="elementor-element elementor-element-c790872 elementor-widget elementor-widget-heading" data-id="c790872" data-element_type="widget" data-widget_type="heading.default">
-                                                            <div class="elementor-widget-container">
-                                                                <h2 class="elementor-heading-title elementor-size-default">Happy Client Say !</h2>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-element elementor-element-5c6a35a elementor-widget elementor-widget-bwp_testimonial" data-id="5c6a35a" data-element_type="widget" data-widget_type="bwp_testimonial.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="bwp-testimonial default">
-                                                                    <div class="block">
-                                                                        <div class="testimonial-title"></div>
-                                                                        <div class="block_content">
-                                                                            <div id="testimonial_11790717451631299973" class="slick-carousel " data-slidesToScroll="true" data-nav="1" data-dots="0" data-columns4="1" data-columns3="2" data-columns2="2" data-columns1="3" data-columns="3">
-                                                                                <div class="testimonial-content">
-                                                                                    <div class="item">
-                                                                                        <div class="testimonial-item"> <span aria-hidden="true" class="wpb-icon icon-quote"></span>
-                                                                                            <div class="star star-5"></div>
-                                                                                            <h2 class="testimonial-title-content">Great quality!</h2>
-                                                                                            <div class="testimonial-customer-position">
-                                                                                                <p class="post-excerpt">Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep screen violence joints symptoms x-ray...</p>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="testimonial-image image-position-left">
-                                                                                            <div class="thumbnail"> <img width="240" height="240" src="{{asset('frontend/uploads/2020/06/tes-1.jpg')}}" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" /></div>
-                                                                                            <div class="testimonial-info">
-                                                                                                <h2 class="testimonial-customer-name">Ann Smith</h2>
-                                                                                                <div class="testimonial-job">Photographer</div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="testimonial-content">
-                                                                                    <div class="item">
-                                                                                        <div class="testimonial-item"> <span aria-hidden="true" class="wpb-icon icon-quote"></span>
-                                                                                            <div class="star star-5"></div>
-                                                                                            <h2 class="testimonial-title-content">Great quality!</h2>
-                                                                                            <div class="testimonial-customer-position">
-                                                                                                <p class="post-excerpt">Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep screen violence joints symptoms x-ray...</p>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="testimonial-image image-position-left">
-                                                                                            <div class="thumbnail"> <img width="240" height="240" src="{{asset('frontend/uploads/2019/12/tes-2.jpg')}}" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" /></div>
-                                                                                            <div class="testimonial-info">
-                                                                                                <h2 class="testimonial-customer-name">Saitama One</h2>
-                                                                                                <div class="testimonial-job">Photographer</div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="testimonial-content">
-                                                                                    <div class="item">
-                                                                                        <div class="testimonial-item"> <span aria-hidden="true" class="wpb-icon icon-quote"></span>
-                                                                                            <div class="star star-5"></div>
-                                                                                            <h2 class="testimonial-title-content">Great quality!</h2>
-                                                                                            <div class="testimonial-customer-position">
-                                                                                                <p class="post-excerpt">Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep screen violence joints symptoms x-ray...</p>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="testimonial-image image-position-left">
-                                                                                            <div class="thumbnail"> <img width="240" height="240" src="{{asset('frontend/uploads/2019/02/tes-3-1.jpg')}}" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" /></div>
-                                                                                            <div class="testimonial-info">
-                                                                                                <h2 class="testimonial-customer-name">Sara Colinton</h2>
-                                                                                                <div class="testimonial-job">Nutricionist</div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="testimonial-content">
-                                                                                    <div class="item">
-                                                                                        <div class="testimonial-item"> <span aria-hidden="true" class="wpb-icon icon-quote"></span>
-                                                                                            <div class="star star-3"></div>
-                                                                                            <h2 class="testimonial-title-content">Great quality!</h2>
-                                                                                            <div class="testimonial-customer-position">
-                                                                                                <p class="post-excerpt">Blood bank canine teeth larynx occupational therapist oncologist optician plaque spinal tap stat strep screen violence joints symptoms x-ray...</p>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="testimonial-image image-position-left">
-                                                                                            <div class="thumbnail"> <img width="95" height="95" src="{{asset('frontend/uploads/2019/12/tes-1.jpg')}}" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" /></div>
-                                                                                            <div class="testimonial-info">
-                                                                                                <h2 class="testimonial-customer-name">Shetty Jamie</h2>
-                                                                                                <div class="testimonial-job">Designer</div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="elementor-section elementor-top-section elementor-element elementor-element-49af6d9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="49af6d9" data-element_type="section">
+                                <x-content.top-comics></x-content.top-comics>
+{{-- End Top Comic --}}
+                               
+
+                                {{-- <section class="elementor-section elementor-top-section elementor-element elementor-element-49af6d9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="49af6d9" data-element_type="section">
                                     <div class="elementor-container elementor-column-gap-default">
                                         <div class="elementor-row">
                                             <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-c728619 wpb-col-sm-50" data-id="c728619" data-element_type="column">
@@ -1889,7 +461,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </section>
+                                </section> --}}
                             </div>
                         </div>
                     </div>

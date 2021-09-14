@@ -11,8 +11,8 @@ class PolicyController extends Controller
 {
     public function index()
     {
-        $about = Policy::first();
-        return view('admin.page.policy',['page' => "Kebijakan Policy"],compact('about'));
+        $policy = Policy::first();
+        return view('admin.page.policy',['page' => "Kebijakan Policy"],compact('policy'));
     }
 
     public function store(Request $request)
@@ -20,7 +20,7 @@ class PolicyController extends Controller
         $validate = Validator::make($request->all(), [
             'title' => 'required',
             'banner'  => 'mimes:jpg,png,jpeg',
-            'status' => 'required'
+            // 'status' => 'required'
         ]);
 
         if ($validate->fails()) {
@@ -34,7 +34,7 @@ class PolicyController extends Controller
 
         $data = Policy::first();
         $data->title = $request->title;
-        $data->status = $request->status;
+        // $data->status = $request->status;
         $request->description ? $data->description = $request->description : null; 
         $request->banner ? $data->banner = $this->uploadImage($request, 'banner', 'page') : null;
         return $this->saveData($data);

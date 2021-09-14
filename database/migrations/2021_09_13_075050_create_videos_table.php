@@ -20,7 +20,7 @@ class CreateVideosTable extends Migration
             $table->text("tag")->nullable();
             $table->string("title")->nullable();
             $table->longText("description")->nullable();
-            $table->string("thumbnail")->default("uploads/null.jpg");
+            $table->string("thumbnail")->default("uploads/video/image.jpg");
             $table->string("video")->nullable();
             $table->enum("unggulan", ["ya", "tidak"])->default("ya");
             $table->integer("status")->default(0);

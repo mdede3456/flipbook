@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\FlipBook;
+use App\Models\Flipbook\CategoryFlipbook;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -20,14 +21,24 @@ class FlipBookController extends Controller
     // Create Flipbook Page
     public function create()
     {
-        return $this->page('admin.flipbook.create', "Tambah Flipbook", null);
+        $category = CategoryFlipbook::all();
+        return view('admin.flipbook.create', ['page' => "Tambah Majalah"], compact('category'));
     }
 
     // Update Flipbook Page 
     public function update($id)
     {
         $flipbook = FlipBook::findOrFail($id);
-        return view('admin.flipbook.update', ["page" => "Update Flipbook"], compact('flipbook'));
+        $category = CategoryFlipbook::all();
+        $unggulan = [
+            'ya'    => "Ya",
+            'tidak' => "Tidak"
+        ];
+        $status = [
+            0       => "Tidak",
+            1       => "Ya"
+        ];
+        return view('admin.flipbook.update', ["page" => "Update Flipbook"], compact('flipbook', 'category', 'unggulan', 'status'));
     }
 
     // Delete Flipbook Page
@@ -37,12 +48,12 @@ class FlipBookController extends Controller
         return $this->deleteData($flipbook, $id);
     }
 
-     // Flipbook Detail atau Overview
-     public function detail($id)
-     {
-         $flipbook = FlipBook::findOrFail($id); 
-         return view('admin.flipbook.detail', ["page" => "Detail Flipbook - " . $flipbook->title], compact('flipbook'));
-     }
+    // Flipbook Detail atau Overview
+    public function detail($id)
+    {
+        $flipbook = FlipBook::findOrFail($id);
+        return view('admin.flipbook.detail', ["page" => "Detail Flipbook - " . $flipbook->title], compact('flipbook'));
+    }
 
     // Store Data Flipbook
     public function store(Request $request, $condition)
@@ -50,6 +61,7 @@ class FlipBookController extends Controller
         $validate = Validator::make($request->all(), [
             'title' => 'required',
             'file'  => 'mimes:pdf',
+            'category_id'   => 'required'
         ]);
 
         if ($validate->fails()) {
@@ -70,9 +82,7 @@ class FlipBookController extends Controller
         $data->author_id = Auth()->user()->id;
         $data->unggulan = $request->unggulan;
         $request->thumbnail ? $data->thumbnail = $this->uploadImage($request, 'thumbnail', 'flipbook') : null;
-        $request->tag ? $data->tag = json_encode($request->tag) : null;
+        $request->tag ? $data->tag = $request->tag : null;
         return $this->saveData($data);
     }
-
-   
 }

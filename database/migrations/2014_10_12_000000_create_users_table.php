@@ -22,6 +22,7 @@ class CreateUsersTable extends Migration
             $table->string("photo")->default("uploads/image.jpg");
             $table->string("banner")->nullable();
             $table->enum("role",["super_admin","admin"])->default("admin");
+            $table->softDeletes();
             $table->rememberToken();
             $table->timestamps();
         });

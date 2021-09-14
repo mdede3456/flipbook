@@ -23,7 +23,7 @@ class CreateFlipBooksTable extends Migration
             $table->string("file")->nullable();
             $table->enum("unggulan",["ya","tidak"])->default("ya");
             $table->integer("status")->default(0);
-            $table->string("thumbnail")->default("uploads/null.jpg");
+            $table->string("thumbnail")->default("uploads/flipbook/image.jpg");
             $table->softDeletes();
             $table->timestamps();
         });

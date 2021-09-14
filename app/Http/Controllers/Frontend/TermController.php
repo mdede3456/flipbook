@@ -11,16 +11,15 @@ class TermController extends Controller
 {
     public function index()
     {
-        $about = Term::first();
-        return view('admin.page.term',['page' => "Kebijakan Privacy"],compact('about'));
+        $term = Term::first();
+        return view('admin.page.term',['page' => "Kebijakan Privacy"],compact('term'));
     }
 
     public function store(Request $request)
     {
         $validate = Validator::make($request->all(), [
             'title' => 'required',
-            'banner'  => 'mimes:jpg,png,jpeg',
-            'status' => 'required'
+            'banner'  => 'mimes:jpg,png,jpeg', 
         ]);
 
         if ($validate->fails()) {
@@ -34,7 +33,7 @@ class TermController extends Controller
 
         $data = Term::first();
         $data->title = $request->title;
-        $data->status = $request->status;
+        // $data->status = $request->status;
         $request->description ? $data->description = $request->description : null; 
         $request->banner ? $data->banner = $this->uploadImage($request, 'banner', 'page') : null;
         return $this->saveData($data);
