@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link media="all" href="{{asset('frontend/cache/autoptimize/css/autoptimize_ae2acfd6ec8dbc59cf683295f6098c97.css')}}" rel="stylesheet" />
     <title>{{env("APP_NAME")}} - {{$page}}</title>
@@ -29,6 +30,8 @@
     <link rel="icon" href="{{asset('frontend/uploads/2021/08/cropped-80-32x32.png')}}" sizes="32x32" />
     <link rel="icon" href="{{asset('frontend/uploads/2021/08/cropped-80-192x192.png')}}" sizes="192x192" />
     <link rel="apple-touch-icon" href="{{asset('frontend/uploads/2021/08/cropped-80-180x180.png')}}" />
+
+    @yield('style')
 </head>
 
 <body class="home page-template page-template-page-templates page-template-homepage page-template-page-templateshomepage-php page page-id-9593 theme-bookio woocommerce-no-js banners-effect-1 elementor-default elementor-kit-9482 elementor-page elementor-page-9593 dokan-theme-bookio">
@@ -86,45 +89,7 @@
             "disable_ajax_form": "false"
         };
     </script>
-    <script type='text/javascript' id='bwp_woocommerce_filter-js-extra'>
-        var filter_ajax = {
-            "ajaxurl": "https:\/\/wpbingosite.com\/wordpress\/bookio\/wp-admin\/admin-ajax.php"
-        };
-    </script>
-    <script type='text/javascript' id='woosw-frontend-js-extra'>
-        var woosw_vars = {
-            "ajax_url": "https:\/\/wpbingosite.com\/wordpress\/bookio\/wp-admin\/admin-ajax.php",
-            "menu_action": "open_page",
-            "copied_text": "Copied the wishlist link:",
-            "menu_text": "Wishlist",
-            "wishlist_url": "https:\/\/wpbingosite.com\/wordpress\/bookio\/wishlist\/",
-            "button_text": "Add to wishlist",
-            "button_action": "list",
-            "button_text_added": "Browse wishlist",
-            "button_action_added": "popup"
-        };
-    </script>
-    <script type='text/javascript' id='bookio-script-js-after'>
-        var bookio_ajax_url = "wp-admin/admin-ajax.html";
-        jQuery(function($) {
-            "use strict";
-            $(document).on("click", ".plus, .minus", function() {
-                var t = $(this).closest(".quantity").find(".qty"),
-                    a = parseFloat(t.val()),
-                    n = parseFloat(t.attr("max")),
-                    s = parseFloat(t.attr("min")),
-                    e = t.attr("step");
-                a && "" !== a && "NaN" !== a || (a = 0), ("" === n || "NaN" === n) && (n = ""), ("" === s || "NaN" === s) && (s = 0), ("any" === e || "" === e || void 0 === e || "NaN" === parseFloat(e)) && (e = 1), $(this).is(".plus") ? t.val(n && (n == a || a > n) ? n : a + parseFloat(e)) : s && (s == a || s > a) ? t.val(s) : a > 0 && t.val(a - parseFloat(e)), t.trigger("change")
-            })
-        });
-    </script>
-    <script type='text/javascript' id='wp-util-js-extra'>
-        var _wpUtilSettings = {
-            "ajax": {
-                "url": "\/wordpress\/bookio\/wp-admin\/admin-ajax.php"
-            }
-        };
-    </script>
+    
 
     <script type='text/javascript' id='dokan-i18n-jed-js-extra'>
         var dokan = {
@@ -272,6 +237,9 @@
     </script>
     <script defer src="{{asset('frontend/cache/autoptimize/js/autoptimize_e6fc239fdcf1fd047886fb0c6b818184.js')}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/fontawesome.min.js" integrity="sha512-ywaT8M9b+VnJ+jNG14UgRaKg+gf8yVBisU2ce+YJrlWwZa9BaZAE5GK5Yd7CBcP6UXoAnziRQl40/u/qwVZi4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="{{ asset('assets/js/app.min.js') }}"></script>
+      
+    @yield('scripts')
 </body>
 
 </html>

@@ -19,7 +19,8 @@
                                 <th class="text-center"> No </th>
                                 <th>Nama / Judul</th>
                                 <th>Kategori</th>
-                                <th>Author</th>
+                                <th>Author</th> 
+                                <th>Viewer</th>
                                 <th>Status</th>
                                 <th>Action</th>
                             </tr>
@@ -37,11 +38,15 @@
                                 <td>{{ $f->category->name ?? '' }}</td>
                                 <td>{{ $f->author->name ?? '' }}</td>
                                 <td>
+                                    <span class="badge bg-primary text-white"><i class="fa fa-eye"></i> {{ count($f->viewer) }}</span>
+                                </td>
+                                <td>
                                     <span class="badge bg-primary text-white">{{ $status[$f->status] }}</span>
                                 </td>
                                 <td>
                                     <a href="{{ route('video.update',$f->id) }}" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i> Update</a>
                                     <a href="{{ route('video.delete',$f->id) }}" class="btn btn-sm btn-danger deletebutton"><i class="fa fa-trash"></i> Delete</a>
+                                    <a href="#" class="btn btn-sm btn-success"><i class="fas fa-chart-area"></i> Analytic</a>
                                 </td>
                             </tr>
 

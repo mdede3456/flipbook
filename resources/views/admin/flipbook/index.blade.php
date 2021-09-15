@@ -20,7 +20,8 @@
                                 <th>Nama / Judul</th>
                                 <th>Kategori</th>
                                 <th>Author</th>
-                                <th>Status</th>
+                                <th>Publish</th>
+                                <th>View</th>
                                 <th>File</th>
                                 <th>Action</th>
                             </tr>
@@ -38,7 +39,18 @@
                                 <td>{{ $f->category->name ?? '' }}</td>
                                 <td>{{ $f->author->name ?? '' }}</td>
                                 <td>
-                                    <span class="badge bg-primary text-white">{{ $status[$f->status] }}</span>
+                                    <span class="badge bg-primary text-white">
+                                        @if($f->status == 1)
+                                            Ya
+                                        @else 
+                                            Tidak 
+                                        @endif
+                                    </span>
+                                </td>
+                                 <td>
+                                    <span class="badge bg-primary text-white">
+                                        <i class="fa fa-eye"></i> {{count($f->viewer)}}
+                                    </span>
                                 </td>
                                 <td>
                                     <a href="{{ asset($f->file) }}" target="_blank" class="btn btn-sm btn-success"><i class="fa fa-download"></i> Lihat / Download</a>
@@ -46,7 +58,7 @@
                                 <td>
                                     <a href="{{ route('flipbook.update',$f->id) }}" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i> Update</a>
                                     <a href="{{ route('flipbook.delete',$f->id) }}" class="btn btn-sm btn-danger deletebutton"><i class="fa fa-trash"></i> Delete</a>
-                                    <a href="{{ route('flipbook.detail',$f->id) }}" class="btn btn-sm btn-primary"><i class="fa fa-eye"></i> Detail</a>
+                                    <a href="{{ route('flipbook.detail',$f->id) }}" class="btn btn-sm btn-primary"><i class="fa fa-eye"></i> Analytic</a>
                                 </td>
                             </tr>
 

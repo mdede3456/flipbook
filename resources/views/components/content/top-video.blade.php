@@ -9,21 +9,25 @@
                                  <div class="bwp-slider default">
                                      <div class="slick-carousel slick-carousel-center" data-dots="false" data-nav="true" data-columns4="1" data-columns3="1" data-columns2="1" data-columns1="1" data-columns1440="1" data-columns="1">
                                          @foreach($video as $v)
-                                             <div class="item">
+                                         <div class="item">
                                              <div class="item-content">
-                                                 <div class="content-image"> <a href="shop/index.html"><img class="elementor-animation-wobble-vertical" src="{{asset($v->thumbnail)}}" alt="Image Slider"></a></div>
+                                                 <div class="content-image">
+                                                     <a href="{{route('web.video_detail',[$v->id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $v->title))])}}">
+                                                         <img class="elementor-animation-wobble-vertical" src="{{asset($v->thumbnail)}}" alt="{{$v->title}}">
+                                                     </a>
+                                                 </div>
                                                  <div class="content-info">
                                                      <div class="content">
                                                          <h2 class="title-slider">{{$v->title}}</h2>
                                                          <div class="subtitle-slider">{{$v->category->name ?? ''}}</div>
-                                                         <div class="button-slider"><a href="shop/index.html">Explore now</a></div>
+                                                         <div class="button-slider"><a href="{{ route('web.video_detail',[$v->id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $v->title))]) }}">Explore now</a></div>
                                                      </div>
                                                  </div>
                                              </div>
                                          </div>
                                          @endforeach
-                                         
-                                         
+
+
                                      </div>
                                  </div>
                              </div>

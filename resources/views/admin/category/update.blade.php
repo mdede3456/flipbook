@@ -29,7 +29,7 @@
 
                             <div class="form-row">  
                                 <div class="form-group col-md-12">
-                                    <label for="file">Kategori Image</label>
+                                    <label for="file">Kategori Image ( 132px x 200px)</label>
                                     <input type="file" name="banner" class="dropify" id="file" data-default-file="{{ asset($category->banner) }}">
                                 </div>
                             </div>

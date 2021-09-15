@@ -14,7 +14,7 @@ class VideoController extends Controller
 {
     public function index()
     {
-        $video = Video::orderBy("id","desc")->get();
+        Auth()->user()->role == 'super_admin' ? $video = Video::orderBy("id","desc")->get() : $video = $video = Video::where("author_id",Auth()->user()->id)->orderBy("id","desc")->get();
         $status = FlipBook::STATUS;
         return view('admin.video.index',["page" => "Data Video"],compact('video','status'));
     }
@@ -63,11 +63,18 @@ class VideoController extends Controller
             }
         }
 
+        if(Auth()->user()->role == 'super_admin') {
+            return response()->json([
+                'errors' => "Gunakan Role Admin / Author untuk menambah atau memperbaharui content",
+                'message' => 'superadmin'
+            ]);
+        }
+
         $condition == 'create' ? $data = new Video() : $data = Video::findOrFail($request->id);
         $data->title = $request->title;
         $data->video = $request->video;
         $data->category_id = $request->category_id;
-        $request->status ? $data->status = $request->status : null;
+        $data->status = $request->status;
         $data->author_id = Auth()->user()->id;
         $request->description ? $data->description = $request->description : null;
         $data->unggulan = $request->unggulan;

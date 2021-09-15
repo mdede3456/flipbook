@@ -12,39 +12,7 @@
                                             <div class="content-product-list">
                                                 <div class="slider products-list grid slick-carousel" data-slidesToScroll="true" data-dots="false" data-nav="0" data-columns4="1" data-columns3="1" data-columns2="1" data-columns1="1" data-columns1440="1" data-columns="1">
                                                     @foreach($top as $t)
-                                                    <div class="item-product">
-                                                        <div class="items">
-                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                <div class="products-thumb">
-                                                                    <div class='product-lable'>
-                                                                        <div class="vgwc-label vgwc-featured hot">Hot</div>
-                                                                    </div>
-                                                                    <div class="product-thumb-hover">
-                                                                        <a href="shop/africa-rising/index.html" class="woocommerce-LoopProduct-link">
-                                                                            <img width="480" height="693" src="{{asset($t->thumbnail)}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" />
-                                                                            <img width="480" height="693" src="{{asset($t->thumbnail)}}" class="hover-image back" alt="" loading="lazy" />
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class='product-button'>
-                                                                        <span class="product-quickview">
-                                                                            <a href="#" data-title="Quick View" data-product_id="16541" class="quickview quickview-button quickview-16541">Detail <i class="icon-view"></i></a>
-                                                                        </span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="products-content">
-                                                                    <div class="contents">
-                                                                        <div class="">
-                                                                            <div class=""></div>
-                                                                            <div class=" "><i class="fa fa-eye"></i> (2)</div>
-                                                                        </div>
-                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/norene-mayert/index.html">{{$t->author->name ?? ''}}</a></span></div>
-                                                                        <h3 class="product-title"><a href="shop/africa-rising/index.html">{{$t->title}}</a></h3>
-
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                        <x-majalah.featured-top content="{{$t->content}}"></x-majalah.featured-top>
                                                     @endforeach
                                                 </div>
                                             </div>
@@ -71,38 +39,8 @@
                                                         @php
                                                         $i = 0;
                                                         @endphp
-                                                        @foreach($other as $o)
-                                                        <div class="items">
-                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                <div class="products-thumb">
-
-                                                                    <div class="product-thumb-hover">
-                                                                        <a href="shop/healed-new-life/index.html" class="woocommerce-LoopProduct-link">
-                                                                            <img width="480" height="693" src="{{asset($o->thumbnail)}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" />
-                                                                            <img width="480" height="693" src="{{asset($o->thumbnail)}}" class="hover-image back" alt="" loading="lazy" />
-                                                                        </a>
-                                                                    </div>
-
-                                                                    <div class='product-button'>
-                                                                        <span class="product-quickview">
-                                                                            <a href="#" data-title="Quick View" data-product_id="16541" class="quickview quickview-button quickview-16541">Detail <i class="icon-view"></i></a>
-                                                                        </span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="products-content">
-                                                                    <div class="contents">
-                                                                        <div class="">
-                                                                            <div class=""></div>
-                                                                            <div class=""><i class="fa fa-eye"></i> (1)</div>
-                                                                        </div>
-                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/alyce-kris/index.html">{{$o->author->name ?? ''}}</a></span></div>
-                                                                        <h3 class="product-title">
-                                                                            <a href="shop/healed-new-life/index.html">{{$o->title}}</a>
-                                                                        </h3>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                        @foreach($other->skip(3) as $o)
+                                                        <x-majalah.featured-component content="{{$o->content}}"> </x-majalah.featured-component>
                                                         @php
                                                         if($i++ == 1) break;
                                                         @endphp
@@ -110,42 +48,12 @@
                                                     </div>
 
 
-                                                    <div class="item-product">
+                                                     <div class="item-product">
                                                         @php
                                                         $i = 0;
                                                         @endphp
-                                                        @foreach($other->skip(2) as $o)
-                                                        <div class="items">
-                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                <div class="products-thumb">
-
-                                                                    <div class="product-thumb-hover">
-                                                                        <a href="shop/healed-new-life/index.html" class="woocommerce-LoopProduct-link">
-                                                                            <img width="480" height="693" src="{{asset($o->thumbnail)}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" />
-                                                                            <img width="480" height="693" src="{{asset($o->thumbnail)}}" class="hover-image back" alt="" loading="lazy" />
-                                                                        </a>
-                                                                    </div>
-
-                                                                    <div class='product-button'>
-                                                                        <span class="product-quickview">
-                                                                            <a href="#" data-title="Quick View" data-product_id="16541" class="quickview quickview-button quickview-16541">Detail <i class="icon-view"></i></a>
-                                                                        </span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="products-content">
-                                                                    <div class="contents">
-                                                                        <div class="">
-                                                                            <div class=""></div>
-                                                                            <div class=""><i class="fa fa-eye"></i> (1)</div>
-                                                                        </div>
-                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/alyce-kris/index.html">{{$o->author->name ?? ''}}</a></span></div>
-                                                                        <h3 class="product-title">
-                                                                            <a href="shop/healed-new-life/index.html">{{$o->title}}</a>
-                                                                        </h3>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                        @foreach($other->skip(5) as $o)
+                                                         <x-majalah.featured-component content="{{$o->content}}"> </x-majalah.featured-component>
                                                         @php
                                                         if($i++ == 1) break;
                                                         @endphp
@@ -156,38 +64,8 @@
                                                         @php
                                                         $i = 0;
                                                         @endphp
-                                                        @foreach($other->skip(4) as $o)
-                                                        <div class="items">
-                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                <div class="products-thumb">
-
-                                                                    <div class="product-thumb-hover">
-                                                                        <a href="shop/healed-new-life/index.html" class="woocommerce-LoopProduct-link">
-                                                                            <img width="480" height="693" src="{{asset($o->thumbnail)}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" />
-                                                                            <img width="480" height="693" src="{{asset($o->thumbnail)}}" class="hover-image back" alt="" loading="lazy" />
-                                                                        </a>
-                                                                    </div>
-
-                                                                    <div class='product-button'>
-                                                                        <span class="product-quickview">
-                                                                            <a href="#" data-title="Quick View" data-product_id="16541" class="quickview quickview-button quickview-16541">Detail <i class="icon-view"></i></a>
-                                                                        </span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="products-content">
-                                                                    <div class="contents">
-                                                                        <div class="">
-                                                                            <div class=""></div>
-                                                                            <div class=""><i class="fa fa-eye"></i> (1)</div>
-                                                                        </div>
-                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/alyce-kris/index.html">{{$o->author->name ?? ''}}</a></span></div>
-                                                                        <h3 class="product-title">
-                                                                            <a href="shop/healed-new-life/index.html">{{$o->title}}</a>
-                                                                        </h3>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                        @foreach($other->skip(7) as $o)
+                                                        <x-majalah.featured-component content="{{$o->content}}"> </x-majalah.featured-component>
                                                         @php
                                                         if($i++ == 1) break;
                                                         @endphp
@@ -198,43 +76,13 @@
                                                         @php
                                                         $i = 0;
                                                         @endphp
-                                                        @foreach($other->skip(6) as $o)
-                                                        <div class="items">
-                                                            <div class="products-entry content-product1 clearfix product-wapper">
-                                                                <div class="products-thumb">
-
-                                                                    <div class="product-thumb-hover">
-                                                                        <a href="shop/healed-new-life/index.html" class="woocommerce-LoopProduct-link">
-                                                                            <img width="480" height="693" src="{{asset($o->thumbnail)}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" />
-                                                                            <img width="480" height="693" src="{{asset($o->thumbnail)}}" class="hover-image back" alt="" loading="lazy" />
-                                                                        </a>
-                                                                    </div>
-
-                                                                    <div class='product-button'>
-                                                                        <span class="product-quickview">
-                                                                            <a href="#" data-title="Quick View" data-product_id="16541" class="quickview quickview-button quickview-16541">Detail <i class="icon-view"></i></a>
-                                                                        </span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="products-content">
-                                                                    <div class="contents">
-                                                                        <div class="">
-                                                                            <div class=""></div>
-                                                                            <div class=""><i class="fa fa-eye"></i> (1)</div>
-                                                                        </div>
-                                                                        <div class="list-author">By : <span class="item-author"><a href="product_author/alyce-kris/index.html">{{$o->author->name ?? ''}}</a></span></div>
-                                                                        <h3 class="product-title">
-                                                                            <a href="shop/healed-new-life/index.html">{{$o->title}}</a>
-                                                                        </h3>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                        @foreach($other->skip(9) as $o)
+                                                        <x-majalah.featured-component content="{{$o->content}}"> </x-majalah.featured-component>
                                                         @php
                                                         if($i++ == 1) break;
                                                         @endphp
                                                         @endforeach
-                                                    </div>
+                                                    </div>  
 
                                                 </div>
                                             </div>

@@ -3,6 +3,7 @@
 namespace App\View\Components\Content;
 
 use App\Models\FlipBook;
+use App\Models\Website\Viewer;
 use Illuminate\View\Component;
 
 class TopBook extends Component
@@ -24,8 +25,17 @@ class TopBook extends Component
      */
     public function render()
     {
-        $top = FlipBook::limit(5)->get();
-        $other = FlipBook::limit(8)->get();
-        return view('components.content.top-book',compact('top','other'));
+        $top = Viewer::selectRaw("count(id) as jumlah, content_id as content")
+            ->where("type", "majalah")
+            ->groupBy("content")
+            ->orderBy("jumlah", "desc")
+            ->limit(3)->get();
+
+        $other = Viewer::selectRaw("count(id) as jumlah, content_id as content")
+            ->where("type", "majalah")
+            ->groupBy("content")
+            ->orderBy("jumlah", "desc")
+            ->limit(11)->get();
+        return view('components.content.top-book', compact('top', 'other'));
     }
 }

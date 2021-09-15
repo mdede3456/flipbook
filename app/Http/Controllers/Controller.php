@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\FlipBook;
+use App\Models\Flipbook\CategoryFlipbook;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
@@ -40,5 +42,18 @@ class Controller extends BaseController
     public function page($file, $page_name, $data)
     {
         return $page_name ?  view($file, ['page' => $page_name]) : view($file, ['page' => $page_name], compact($data));
+    }
+
+    public function pencarian(Request $request, $type)
+    {
+        if ($type == 'majalah') {
+            $book = FlipBook::where('title', 'like', '%' . $request->name . '%')->get();
+            $cate = CategoryFlipbook::all();
+            return view('website.majalah.search', ['page' => "Hasi Pencarian - " . $request->name], compact('book', 'cate'));
+        } else {
+            $book = FlipBook::where('title', 'like', '%' . $request->name . '%')->get();
+            $cate = CategoryFlipbook::all();
+            return view('website.search', ['page' => "Hasi Pencarian - " . $request->name], compact('book', 'cate'));
+        }
     }
 }

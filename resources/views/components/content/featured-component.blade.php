@@ -18,20 +18,17 @@
                                                              <div class="products-entry content-product1 clearfix product-wapper">
                                                                  <div class="products-thumb">
                                                                      <div class='product-lable'>
-                                                                         <div class="onsale">Featured</div>
+                                                                         <div class="onsale">Unggulan</div>
                                                                      </div>
                                                                      <div class="product-thumb-hover">
-                                                                         <a href="shop/100-selected-poems/index.html" class="woocommerce-LoopProduct-link">
+                                                                         <a href="{{route('majalah.detail',[$b->id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $b->title))])}}" class="woocommerce-LoopProduct-link">
                                                                              <img width="480" height="693" src="{{asset($b->thumbnail)}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" />
                                                                              <img width="480" height="693" src="{{asset($b->thumbnail)}}" class="hover-image back" alt="" loading="lazy" />
                                                                          </a>
                                                                      </div>
-                                                                     <div class='product-button'>
-                                                                         <div data-title="Add to cart">
-                                                                            <a rel="nofollow" href="indexa69c.html?add-to-cart=16317" data-quantity="1" data-product_id="16317" data-product_sku="D1115" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a>
-                                                                        </div>
+                                                                     <div class='product-button'> 
                                                                         <span class="product-quickview">
-                                                                            <a href="#" data-title="Quick View" data-product_id="16317" class="quickview quickview-button quickview-16317">Quick View <i class="icon-view"></i></a>
+                                                                            <a href="{{route('majalah.detail',[$b->id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $b->title))])}}" class="quickview quickview-button quickview-16317">Quick View <i class="icon-view"></i></a>
                                                                         </span>
                                                                      </div>
                                                                  </div>
@@ -39,11 +36,11 @@
                                                                      <div class="contents">
                                                                          <div class="">
                                                                              <div class=""></div>
-                                                                             <div class=""><i class="fa fa-eye"></i> ( 0 )</div>
+                                                                             <div class=""><i class="fa fa-eye"></i> ( {{count($b->viewer)}} )</div>
                                                                          </div>
                                                                          <div class="list-author">By : <span class="item-author"><a href="product_author/alyce-kris/index.html">{{$b->author->name ?? 'no-name'}}</a></span></div>
                                                                          <h3 class="product-title">
-                                                                            <a href="shop/100-selected-poems/index.html">{{$b->title}}</a>
+                                                                            <a href="{{route('majalah.detail',[$b->id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $b->title))])}}">{{$b->title}}</a>
                                                                         </h3> 
                                                                        
                                                                      </div>

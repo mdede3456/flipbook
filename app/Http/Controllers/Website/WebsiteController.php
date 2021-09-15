@@ -11,13 +11,18 @@ class WebsiteController extends Controller
 {
     public function index()
     {
-        return view("index",['page' => "Home Page"]);
+        return view("index", ['page' => "Home Page"]);
+    }
+
+    public function globalSearch(Request $request)
+    {
+        return $this->pencarian($request,$request->type);
     }
 
     public function subcriber(Request $request)
     {
         $validate = Validator::make($request->all(), [
-            'email' => 'required||unique:users,email', 
+            'email' => 'required||unique:users,email',
         ]);
 
         if ($validate->fails()) {

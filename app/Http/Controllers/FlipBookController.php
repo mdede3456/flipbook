@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\FlipBook;
 use App\Models\Flipbook\CategoryFlipbook;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
 
 class FlipBookController extends Controller
@@ -13,7 +14,8 @@ class FlipBookController extends Controller
     // FlipBook List Page 
     public function index()
     {
-        $flipbook = FlipBook::orderBy("id", "desc")->get();
+        Auth()->user()->role == 'super_admin' ?  $flipbook = FlipBook::orderBy("id", "desc")->get() : $flipbook = FlipBook::where("author_id",Auth()->user()->id)->orderBy("id", "desc")->get();
+       
         $status = FlipBook::STATUS;
         return view('admin.flipbook.index', ["page" => "Daftar Flipbook"], compact('flipbook', 'status'));
     }
@@ -35,8 +37,8 @@ class FlipBookController extends Controller
             'tidak' => "Tidak"
         ];
         $status = [
-            0       => "Tidak",
-            1       => "Ya"
+            "0"       => "Tidak",
+            "1"       => "Ya"
         ];
         return view('admin.flipbook.update', ["page" => "Update Flipbook"], compact('flipbook', 'category', 'unggulan', 'status'));
     }
@@ -57,7 +59,7 @@ class FlipBookController extends Controller
 
     // Store Data Flipbook
     public function store(Request $request, $condition)
-    {
+    { 
         $validate = Validator::make($request->all(), [
             'title' => 'required',
             'file'  => 'mimes:pdf',
@@ -73,10 +75,17 @@ class FlipBookController extends Controller
             }
         }
 
+        if(Auth()->user()->role == 'super_admin') {
+            return response()->json([
+                'errors' => "Gunakan Role Admin / Author untuk menambah atau memperbaharui content",
+                'message' => 'superadmin'
+            ]);
+        }
+
         $condition == 'create' ? $data = new FlipBook : $data = FlipBook::findOrFail($request->id);
         $data->title = $request->title;
-        $request->description ? $data->description = $request->description : null;
-        $request->status ? $data->status = $request->status : null;
+        $data->status = $request->status;
+        $request->description ? $data->description = $request->description : null; 
         $request->file ? $data->file = $this->uploadImage($request, 'file', 'berkas') : null;
         $data->category_id = $request->category_id;
         $data->author_id = Auth()->user()->id;

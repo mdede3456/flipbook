@@ -40,21 +40,10 @@
                 <div class="header-section">
                     <div class="wpbingoLogo"> <a href="{{route('web')}}"> <img src="{{asset($settings->logo)}}" alt="{{$settings->name}}" /> </a></div>
                     <div class="header-search-form">
-                        <form role="search" method="GET" class="search-from ajax-search" action="#">
-                            <div class="select_category pwb-dropdown dropdown"> <span class="pwb-dropdown-toggle dropdown-toggle" data-toggle="dropdown">Category</span> <span class="caret"></span>
-                                <ul class="pwb-dropdown-menu dropdown-menu category-search">
-                                    <li data-value="" class="active">All Category</li>
-                                    @foreach($category as $c)
-                                         <li data-value="{{$c->id}}" class="children ">{{$c->name}}</li>
-                                    @endforeach 
-                                </ul> 
-                                <input type="hidden" name="category_id" class="product-cat" value="" />
-                            </div>
+                        <form role="search" method="GET" class="search-from ajax-search" action="{{route('global.search')}}">
+                            
                             <div class="search-box"> 
-                                <input type="text" name="name" value=""  class="input-search s" placeholder="Cari Buku Atau Video..." />
-                                <div class="result-search-products-content">
-                                    <ul class="result-search-products"></ul>
-                                </div>
+                                <input type="text" name="name" value=""  class="input-search s" placeholder="Cari Buku Atau Video..." /> 
                             </div>  
                             <button id="searchsubmit2" class="btn" type="submit"> 
                                 <span class="search-icon"> <i class="icon-loupe"></i> </span> <span>search</span> 
@@ -81,7 +70,7 @@
                                             <ul id="menu-vertical-menu" class="menu">
                                             @foreach($category as $c)
                                                 <li class="level-0 menu-item-12291 top-one menu-item menu-item-type-custom menu-item-object-custom  std-menu      ">
-                                                    <a href="#"><span class="menu-item-text"><i class="fas fa-arrow-circle-right"></i> {{$c->name}}</span></a>
+                                                    <a href="{{route('majalah.category',[$c->id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $c->name))])}}"><span class="menu-item-text"><i class="fas fa-arrow-circle-right"></i> {{$c->name}}</span></a>
                                                 </li>  
                                             @endforeach
                                             </ul>
@@ -105,7 +94,7 @@
                                                                         <a href="{{route('web')}}"><span class="menu-item-text">Home</span></a> 
                                                                     </li>
                                                                     <li class="level-0 menu-item-2985 menu-item menu-item-type-post_type menu-item-object-page  mega-menu mega-menu-fullwidth-width     ">
-                                                                        <a href="shop/{{route('web')}}"><span class="menu-item-text">Our Book</span></a> 
+                                                                        <a href="{{route('website.majalah')}}"><span class="menu-item-text">Our Majalah</span></a> 
                                                                     </li>
                                                                     <li class="level-0 menu-item-2986 menu-item menu-item-type-taxonomy menu-item-object-category  mega-menu mega-menu-fullwidth-width     ">
                                                                         <a href="category/backpack/{{route('web')}}"><span class="menu-item-text">Our Video</span></a> 

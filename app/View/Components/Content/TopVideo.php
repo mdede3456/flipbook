@@ -24,7 +24,7 @@ class TopVideo extends Component
      */
     public function render()
     {
-        $video = Video::where("unggulan","ya")->limit(6)->get();
+        $video = Video::where("status",1)->where("unggulan","ya")->limit(6)->get();
         return view('components.content.top-video',compact('video'));
     }
 }

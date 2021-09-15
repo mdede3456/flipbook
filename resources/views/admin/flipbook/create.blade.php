@@ -59,7 +59,7 @@
                                 <input type="file" name="file" class="dropify" id="file">
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="file">Thumbnail</label>
+                                <label for="file">Thumbnail ( 720px x 1040px ) </label>
                                 <input type="file" name="thumbnail" class="dropify" id="file">
                             </div>
 
@@ -135,6 +135,26 @@
                                 }
                             }
                         );
+                        spinner.hide();
+                    } else if(data.message == 'superadmin') {
+                        toastr.error(data.errors, "Peringatan", {
+                            timeOut: 5e3
+                            , closeButton: !0
+                            , debug: !1
+                            , newestOnTop: !0
+                            , progressBar: !0
+                            , positionClass: "toast-top-right"
+                            , preventDuplicates: !0
+                            , onclick: null
+                            , showDuration: "100"
+                            , hideDuration: "1000"
+                            , extendedTimeOut: "1000"
+                            , showEasing: "swing"
+                            , hideEasing: "linear"
+                            , showMethod: "fadeIn"
+                            , hideMethod: "fadeOut"
+                            , tapToDismiss: !1
+                        , });
                         spinner.hide();
                     } else {
                         toastr.success("Data Flipbook Berhasil ditambahkan", "success", {

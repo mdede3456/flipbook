@@ -28,7 +28,7 @@
 
                             <div class="form-row">  
                                 <div class="form-group col-md-12">
-                                    <label for="file">Gambar Katgeori</label>
+                                    <label for="file">Gambar Katgeori ( 132px x 200px)</label>
                                     <input type="file" name="banner" class="dropify" id="file">
                                 </div>
                             </div>

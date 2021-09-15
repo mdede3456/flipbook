@@ -24,7 +24,7 @@ class FeaturedComponent extends Component
      */
     public function render()
     {
-        $book = FlipBook::where("unggulan","ya")->orderBy("id","desc")->limit(10)->get();
+        $book = FlipBook::where("status",1)->where("unggulan","ya")->orderBy("id","desc")->limit(10)->get();
         return view('components.content.featured-component',compact('book'));
     }
 }
