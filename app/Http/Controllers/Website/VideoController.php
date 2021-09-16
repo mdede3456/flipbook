@@ -13,9 +13,9 @@ class VideoController extends Controller
 {
     public function index()
     {
-        $video = Video::where("status",1)->orderBy("id","desc")->paginate(4);
-        $category = CategoryFlipbook::all();
-        return view('website.video.index',['page' => "Daftar Video"],compact('video','category'));
+        $video = Video::where("status",1)->orderBy("id","desc")->paginate(20);
+        $cate = CategoryFlipbook::all();
+        return view('website.video.index',['page' => "Daftar Video"],compact('video','cate'));
     }
 
     public function detail($id)
@@ -42,12 +42,14 @@ class VideoController extends Controller
 
     public function search(Request $request)
     {
-        return $this->pencarian($request,"video");
+        $video = Video::where("status",1)->where('title', 'like', '%' . $request->name . '%')->paginate(20);
+        $cate = CategoryFlipbook::all();
+        return view('website.video.search',['page' => "Hasil Pencarian Video - ". $request->name],compact('cate','video'));
     }
 
     public function category($id)
     {
-        $video = Video::where("status",1)->where("category_id",$id)->paginate(4);
+        $video = Video::where("status",1)->where("category_id",$id)->paginate(20);
         $category = CategoryFlipbook::findOrFail($id);
         $cate = CategoryFlipbook::all();
         return view('website.video.category',['page' => $category->name],compact('category','cate','video'));
@@ -73,7 +75,10 @@ class VideoController extends Controller
                 'image'         => asset($data->thumbnail),
                 'title'         => $data->title,
                 'id'            => $data->id,
-                'unggulan'      => $featured
+                'unggulan'      => $featured,
+                'tanggal'       => $data->created_at->format('d'),
+                'bulan'         => $data->created_at->format("M"),
+                'created_at'    => $data->created_at
             );
 
             array_push($callback, $pushing);

@@ -13,9 +13,6 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
--- Dumping database structure for flipbook
-CREATE DATABASE IF NOT EXISTS `flipbook` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `flipbook`;
 
 -- Dumping structure for table flipbook.abouts
 CREATE TABLE IF NOT EXISTS `abouts` (

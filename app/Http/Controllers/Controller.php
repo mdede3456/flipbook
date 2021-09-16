@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\FlipBook;
 use App\Models\Flipbook\CategoryFlipbook;
+use App\Models\Video\Video;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
@@ -47,13 +48,14 @@ class Controller extends BaseController
     public function pencarian(Request $request, $type)
     {
         if ($type == 'majalah') {
-            $book = FlipBook::where('title', 'like', '%' . $request->name . '%')->get();
+            $book = FlipBook::where("status", 1)->where('title', 'like', '%' . $request->name . '%')->get();
             $cate = CategoryFlipbook::all();
             return view('website.majalah.search', ['page' => "Hasi Pencarian - " . $request->name], compact('book', 'cate'));
         } else {
-            $book = FlipBook::where('title', 'like', '%' . $request->name . '%')->get();
+            $book = FlipBook::where("status", 1)->where('title', 'like', '%' . $request->name . '%')->get();
+            $video = Video::where("status", 1)->where('title', 'like', '%' . $request->name . '%')->get();
             $cate = CategoryFlipbook::all();
-            return view('website.search', ['page' => "Hasi Pencarian - " . $request->name], compact('book', 'cate'));
+            return view('website.search', ['page' => "Hasi Pencarian - " . $request->name], compact('book', 'cate', 'video'));
         }
     }
 }

@@ -97,7 +97,7 @@
                                                                         <a href="{{route('website.majalah')}}"><span class="menu-item-text">Our Majalah</span></a> 
                                                                     </li>
                                                                     <li class="level-0 menu-item-2986 menu-item menu-item-type-taxonomy menu-item-object-category  mega-menu mega-menu-fullwidth-width     ">
-                                                                        <a href="category/backpack/{{route('web')}}"><span class="menu-item-text">Our Video</span></a> 
+                                                                        <a href="{{route('web.video')}}"><span class="menu-item-text">Our Video</span></a> 
                                                                     </li>
                                                                     <li class="level-0 menu-item-12288      menu-item menu-item-type-custom menu-item-object-custom std-menu      ">
                                                                         <a href="#"><span class="menu-item-text">Our Komik</span></a>

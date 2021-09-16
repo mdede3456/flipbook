@@ -140,7 +140,7 @@
                                         </div>
                                     </div>
                                 </li>`;
-                        $("#dumpbaru").after(listItem);
+                        $("#dumpbaru").before(listItem);
                     });
 
                     if (itemmm == 0) {

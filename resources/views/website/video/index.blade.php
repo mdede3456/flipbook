@@ -85,12 +85,11 @@
     if (
         $("#loading-lagi").click(function() {
             var pageContent = $("#loading-lagi").val();
-            var category = "{{$category->id}}"
             $.post(
                 domain + "/video/load-more", {
                     _token: token
                     , page: pageContent
-                    , category: category
+                    , category: null
                 },
 
                 function(data, status, jqXHR) {
