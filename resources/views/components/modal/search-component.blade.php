@@ -4,12 +4,12 @@
                 <h2>Cari Sesuatu Disini ?</h2>
                 <div class="close-search"><i class="icon_close"></i></div>
             </div>
-            <form role="search" method="GET" class="search-from ajax-search" action="javascript:void(0)"  >
+            <form role="search" method="GET" class="search-from ajax-search" action="{{route('global.search')}}"  >
                 <div class="search-box"> 
                     <button id="searchsubmit" class="btn" type="submit"> 
                         <i class="fa fa-search"></i>  
                     </button> 
-                    <input type="text" value="" name="s" id="s" class="input-search s" placeholder="Cari..." />
+                    <input type="text" value="" name="name" class="input-search s" placeholder="Cari..." />
                     <div class="result-search-products-content">
                         <ul class="result-search-products"></ul>
                     </div>

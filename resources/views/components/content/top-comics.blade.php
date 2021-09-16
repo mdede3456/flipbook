@@ -17,7 +17,7 @@
                                                              <div class="products-entry content-product1 clearfix product-wapper">
                                                                  <div class="products-thumb"> 
                                                                      <div class="product-thumb-hover">
-                                                                        <a href="shop/healed-new-life/index.html" class="woocommerce-LoopProduct-link">
+                                                                        <a href="{{route('comic.detail',[$c->id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $c->name))])}}" class="woocommerce-LoopProduct-link">
                                                                             <img width="480" height="693" src="{{asset($c->thumbnail)}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" />
                                                                             <img width="480" height="693" src="{{asset($c->thumbnail)}}" class="hover-image back" alt="" loading="lazy" />
                                                                             </a>
@@ -34,8 +34,8 @@
                                                                              <div class=""></div>
                                                                              <div class=""><i class="fa fa-eye"></i> (1)</div>
                                                                          </div>
-                                                                         <div class="list-author">Genre : <span class="item-author"><a href="product_author/alyce-kris/index.html">{{$c->genre->name ?? ''}}</a></span></div>
-                                                                         <h3 class="product-title"><a href="shop/healed-new-life/index.html">{{$c->name}}</a></h3> 
+                                                                         <div class="list-author">Genre : <span class="item-author"><a href="{{route('comic.detail',[$c->id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $c->name))])}}">{{$c->genre->name ?? ''}}</a></span></div>
+                                                                         <h3 class="product-title"><a href="{{route('comic.detail',[$c->id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $c->name))])}}">{{$c->name}}</a></h3> 
                                                                           
                                                                      </div>
                                                                  </div>

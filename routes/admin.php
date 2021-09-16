@@ -30,10 +30,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-Route::middleware('auth')->group(function () {
-
-    // General Route
+Route::middleware(['auth'])->group(function() {
     Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
     Route::get("/dashboard", [AdminController::class, 'index'])->name('dashboard');
     Route::get("/profile", [AdminController::class, 'profile'])->name('profile');
@@ -92,6 +89,9 @@ Route::middleware('auth')->group(function () {
         Route::get("delete/{id}", [ChapterController::class, 'delete'])->name('chapter.delete');
     });
 
+});
+
+Route::middleware('superadmin')->group(function () {  
     // Slider Route
     Route::prefix('slider')->group(function () {
         Route::get('/', [SliderController::class, 'index'])->name('slider.index');

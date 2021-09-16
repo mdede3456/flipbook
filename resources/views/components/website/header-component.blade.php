@@ -5,8 +5,8 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 topbar-left hidden-sm hidden-xs">
                         <ul id="topbar_menu" class="menu">
-                            <li id="menu-item-24855" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24855"><a href="#">ABOUT US</a></li>
-                            <li id="menu-item-24856" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24856"><a href="#">CONTACT US</a></li> 
+                            <li id="menu-item-24855" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24855"><a href="{{route('web.about')}}">ABOUT US</a></li>
+                            <li id="menu-item-24856" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24856">Selamat Datang Di {{$settings->name}}</li> 
                         </ul>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 topbar-right">
@@ -51,7 +51,7 @@
                         </form>
                     </div>
                     <div class="header-page-link">
-                        <div class="address hidden-xs"> <a href="#"><i class="fab fa-hotjar"></i>Top Book</a></div>
+                        <div class="address hidden-xs"> <a href="{{route('author.index')}}"><i class="fab fa-hotjar"></i>Top Author</a></div>
                          <div class="address hidden-xs"> <a href="#"><i class="fas fa-award"></i>Recomended</a></div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
                                                                         <a href="{{route('web.video')}}"><span class="menu-item-text">Our Video</span></a> 
                                                                     </li>
                                                                     <li class="level-0 menu-item-12288      menu-item menu-item-type-custom menu-item-object-custom std-menu      ">
-                                                                        <a href="#"><span class="menu-item-text">Our Komik</span></a>
+                                                                        <a href="{{route("comic.index")}}"><span class="menu-item-text">Our Komik</span></a>
                                                                     </li> 
                                                                 </ul>
                                                             </div>

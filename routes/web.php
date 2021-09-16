@@ -6,7 +6,10 @@ use App\Http\Controllers\Manga\ChapterController;
 use App\Http\Controllers\Manga\GenreController;
 use App\Http\Controllers\Manga\KomikController;
 use App\Http\Controllers\Video\VideoController;
+use App\Http\Controllers\Website\AuthorController;
+use App\Http\Controllers\Website\ComicController;
 use App\Http\Controllers\Website\MajalahController;
+use App\Http\Controllers\Website\PageController;
 use App\Http\Controllers\Website\VideoController as WebsiteVideoController;
 use App\Http\Controllers\Website\WebsiteController;
 use App\Models\Manga\Chapter;
@@ -49,5 +52,26 @@ Route::prefix('video')->group(function() {
     Route::get("/pencarian",[WebsiteVideoController::class,'search'])->name("video.search");
 });
 
+Route::prefix("komik")->group(function() {
+    Route::get("/",[ComicController::class,'index'])->name('comic.index');
+    Route::get("/{id}/{any}",[ComicController::class,'detail'])->name('comic.detail');
+    Route::get("baca-komik/{id}/{any}",[ComicController::class,'read'])->name('comic.read');
+    Route::get("get-image/{id}", [ChapterController::class, 'getimage']);
+    Route::get("/genre/{id}/{any}",[ComicController::class,'genre'])->name('comic.genre');
+    Route::post("load-more",[ComicController::class,'loadMore']);
+    Route::get("/pencarian",[ComicController::class,'search'])->name("comic.search");
+});
+
+Route::prefix("author")->group(function() {
+    Route::get("/",[AuthorController::class,'index'])->name('author.index');
+    Route::get("/{id}/{any}",[AuthorController::class,'detail'])->name('author.detail');
+});
+
+Route::prefix("page")->group(function(){
+    Route::get("/about",[PageController::class,'about'])->name('web.about');
+    Route::get("/contact-us",[PageController::class,'contact'])->name('web.contact');
+    Route::get("/term",[PageController::class,'term'])->name('web.term');
+    Route::get("/policy",[PageController::class,'policy'])->name('web.policy');
+});
 
 

@@ -118,7 +118,7 @@
                                                         <div class="elementor-element elementor-element-2f89cf4 elementor-align-right elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="2f89cf4" data-element_type="widget" data-widget_type="button.default">
                                                             <div class="elementor-widget-container">
                                                                 <div class="elementor-button-wrapper">
-                                                                    <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                                                    <a href="{{route('comic.index')}}" class="elementor-button-link elementor-button elementor-size-sm" role="button">
                                                                         <span class="elementor-button-content-wrapper">
                                                                             <span class="elementor-button-icon elementor-align-icon-right">
                                                                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;" xml:space="preserve">
@@ -243,7 +243,7 @@
                                                         <div class="elementor-element elementor-element-1fa6bce elementor-align-right elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="1fa6bce" data-element_type="widget" data-widget_type="button.default">
                                                             <div class="elementor-widget-container">
                                                                 <div class="elementor-button-wrapper">
-                                                                    <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                                                    <a href="{{route('comic.index')}}" class="elementor-button-link elementor-button elementor-size-sm" role="button">
                                                                         <span class="elementor-button-content-wrapper">
                                                                             <span class="elementor-button-icon elementor-align-icon-right">
                                                                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 476.213 476.213" style="enable-background:new 0 0 476.213 476.213;" xml:space="preserve">

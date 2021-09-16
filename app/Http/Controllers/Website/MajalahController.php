@@ -77,7 +77,8 @@ class MajalahController extends Controller
                 'image'      => asset($data->thumbnail),
                 'title'        => $data->title,
                 'id'   => $data->id,
-                'unggulan' => $featured
+                'unggulan' => $featured,
+                'author_link'   => route('author.detail',[$data->author_id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $data->author->name ?? 'none'))])
             );
 
             array_push($callback, $pushing);

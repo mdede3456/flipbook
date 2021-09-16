@@ -46,7 +46,7 @@
                                        
                                         <h3 class="entry-title"><a href="{{route('web.video_detail',[$v->id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $v->title))])}}">{{$v->title}}</a></h3>
                                         <div class="entry-meta-head">
-                                            <div class="entry-author"> <span class="entry-meta-link">By : <a href="../../author/wpbingo/index.html" title="Posts by Wpbingo" rel="author">{{$v->author->name ?? ''}}</a></span></div> <span class="comments-link"> {{count($v->viewer)}}<span> Ditonton</span> </span>
+                                            <div class="entry-author"> <span class="entry-meta-link">By : <a href="{{route('author.detail',[$v->author_id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $v->author->name ?? 'none'))])}}" title="Posts by Wpbingo" rel="author">{{$v->author->name ?? ''}}</a></span></div> <span class="comments-link"> {{count($v->viewer)}}<span> Ditonton</span> </span>
                                         </div> <a class="read-more" href="{{route('web.video_detail',[$v->id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $v->title))])}}">Tonton Video</a>
                                     </div>
                                     <div class="entry-thumb single-thumb"> <a class="post-thumbnail" href="{{route('web.video_detail',[$v->id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $v->title))])}}" title="{{$v->title}}">
@@ -117,7 +117,7 @@
                                       
                                         <h3 class="entry-title"><a href="`+ value.link +`">`+ value.title +`</a></h3>
                                         <div class="entry-meta-head">
-                                            <div class="entry-author"> <span class="entry-meta-link">By : <a href="../../author/wpbingo/index.html" title="Posts by Wpbingo" rel="author">`+ value.author +`</a></span></div> <span class="comments-link"> `+ value.viewer +`<span> Ditonton</span> </span>
+                                            <div class="entry-author"> <span class="entry-meta-link">By : <a href="`+ value.author_link +`" title="Posts by Wpbingo" rel="author">`+ value.author +`</a></span></div> <span class="comments-link"> `+ value.viewer +`<span> Ditonton</span> </span>
                                         </div> <a class="read-more" href="`+ value.link +`">Tonton Video</a>
                                     </div>
                                     <div class="entry-thumb single-thumb"> <a class="post-thumbnail" href="`+ value.link +`" title="`+ value.title +`">

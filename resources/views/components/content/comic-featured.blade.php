@@ -18,7 +18,7 @@
                                                                 <div class="products-thumb">
                                                                     <div class='product-lable'></div>
                                                                     <div class="product-thumb-hover">
-                                                                        <a href="shop/cup-cake-diares/index.html" class="woocommerce-LoopProduct-link">
+                                                                        <a href="{{route('comic.detail',[$m->id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $m->name))])}}" class="woocommerce-LoopProduct-link">
                                                                             <img width="480" height="693" src="{{asset($m->thumbnail)}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" loading="lazy" />
                                                                             <img width="480" height="693" src="{{asset($m->thumbnail)}}" class="hover-image back" alt="" loading="lazy" />
                                                                         </a>
@@ -26,22 +26,20 @@
                                                                      
                                                                     <div class='product-button'>
                                                                         <span class="product-quickview">
-                                                                            <a href="#" data-title="Lihat Komik" data-product_id="3986" class="quickview quickview-button quickview-3986">Lihat Komik <i class="icon-view"></i></a>
+                                                                            <a href="{{route('comic.detail',[$m->id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $m->name))])}}" data-title="Lihat Komik" data-product_id="3986" class="quickview quickview-button quickview-3986">Lihat Komik <i class="icon-view"></i></a>
                                                                         </span>
                                                                     </div>
                                                                 </div>
                                                                 <div class="products-content">
                                                                     <div class="contents">
-                                                                        <div style="margin-bottom:5px">
-                                                                            <div class=""></div>
-                                                                            <div class=""><i class="fa fa-eye"></i> (0)</div>
-                                                                        </div>
-                                                                        <h3 class="product-title"><a href="shop/cup-cake-diares/index.html">{{$m->name}}</a></h3>
-                                                                        <div class="list-author">Genre : <span class="item-author"><a href="product_author/alec-hansen/index.html">{{$m->genre->name ?? ''}}</a></span></div>  
+                                                                    
+                                                                        <h3 class="product-title"><a href="{{route('comic.detail',[$m->id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $m->name))])}}">{{$m->name}}</a></h3>
+                                                                        <div class="list-author">Genre : <span class="item-author"><a href="javascript:void(0)">{{$m->genre->name ?? ''}}</a></span></div>  
+                                                                         <div class="list-author">Chapter : <span class="item-author"><a href="javascript:void(0)">{{ count($m->chapter)}}</a></span></div>  
                                                                         <div class="description">
                                                                            <?=substr($m->description,0,150);?>....
                                                                         </div>
-                                                                        <div data-title="Detail"><a rel="nofollow" href="index650d.html?add-to-cart=3986" data-quantity="1" data-product_id="3986" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Lihat Detail</a></div>
+                                                                        <div data-title="Detail"><a rel="nofollow" href="{{route('comic.detail',[$m->id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $m->name))])}}" data-quantity="1" data-product_id="3986" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Lihat Detail</a></div>
                                                                     </div>
                                                                 </div>
                                                             </div>

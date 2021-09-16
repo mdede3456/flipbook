@@ -2,6 +2,7 @@
 
 namespace App\Models\Manga;
 
+use App\Models\Website\Viewer;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -39,6 +40,11 @@ class Chapter extends Model
     public function check()
     {
         return $this->hasMany(Media::class, 'imageable_id');
+    }
+
+    public function viewer()
+    {
+        return $this->hasMany(Viewer::class,'content_id')->where("type","komik");
     }
 
      

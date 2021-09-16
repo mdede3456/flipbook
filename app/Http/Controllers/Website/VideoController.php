@@ -42,7 +42,7 @@ class VideoController extends Controller
 
     public function search(Request $request)
     {
-        $video = Video::where("status",1)->where('title', 'like', '%' . $request->name . '%')->paginate(20);
+        $video = Video::where("status",1)->where('title', 'like', '%' . $request->name . '%')->get();
         $cate = CategoryFlipbook::all();
         return view('website.video.search',['page' => "Hasil Pencarian Video - ". $request->name],compact('cate','video'));
     }
@@ -62,7 +62,7 @@ class VideoController extends Controller
         $callback = array();
 
         foreach ($book as $data) {
-            $author = $data->author->name ?? '';
+            $author = $data->author->name ?? 'none';
             if($data->unggulan = 'ya') {
                 $featured = '<div class="vgwc-label vgwc-featured hot">Unggulan</div>';
             } else {
@@ -78,7 +78,8 @@ class VideoController extends Controller
                 'unggulan'      => $featured,
                 'tanggal'       => $data->created_at->format('d'),
                 'bulan'         => $data->created_at->format("M"),
-                'created_at'    => $data->created_at
+                'created_at'    => $data->created_at,
+                'author_link'   => route('author.detail',[$data->author_id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $author))])
             );
 
             array_push($callback, $pushing);

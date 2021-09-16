@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Models\Video\Video;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -42,4 +43,14 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function majalah()
+    {
+        return $this->hasMany(FlipBook::class,'author_id')->where("status",1);
+    }
+
+    public function video()
+    {
+        return $this->hasMany(Video::class,'author_id')->where("status",1);
+    }
 }

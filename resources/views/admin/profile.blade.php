@@ -1,5 +1,10 @@
 @extends('layouts.admin')
 @section('content')
+
+@section('style') 
+    <link rel="stylesheet" href="{{ asset('assets/bundles/dropify/css/dropify.min.css') }}"> 
+@endsection
+
     <div class="section-body">
         <div class="container">
             <div class="row">
@@ -24,9 +29,13 @@
                             </div>
                            
                             <div class="form-row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
                                     <label for="inputCity">Photo</label>
-                                    <input type="file" name="photo" class="form-control" id="inputCity">
+                                    <input type="file"  data-default-file="{{ asset(Auth()->user()->photo) }}" class="dropify" name="photo" class="form-control" id="inputCity">
+                                </div> 
+                                 <div class="form-group col-md-6">
+                                    <label for="inputCity">Banner</label>
+                                    <input type="file"  data-default-file="{{ asset(Auth()->user()->banner) }}" class="dropify" name="banner" class="form-control" id="inputCity">
                                 </div> 
                             </div>
                              
@@ -39,4 +48,14 @@
             </div>
         </div>
     </div>
+@endsection
+
+@section('scripts') 
+    <script src="{{ asset('assets/bundles/dropify/js/dropify.min.js') }}"></script>
+    <script>  
+        $(document).ready(function() {
+            // Basic
+            $('.dropify').dropify();
+        });
+    </script>
 @endsection

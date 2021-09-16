@@ -123,10 +123,10 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-shortcode">
                                                     <ul class="social-link">
-                                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                                        <li><a href="{{$setting->twitter_link}}"><i class="fa fa-twitter"></i></a></li>
+                                                        <li><a href="{{$setting->instagram_link}}"><i class="fa fa-instagram"></i></a></li>
+                                                        <li><a href="{{$setting->facebook_link}}"><i class="fa fa-facebook"></i></a></li>
+                                                        <li><a href="{{$setting->youtube_link}}"><i class="fa fa-youtube"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -134,17 +134,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-dc4a2e8" data-id="dc4a2e8" data-element_type="column">
-                                <div class="elementor-column-wrap elementor-element-populated">
-                                    <div class="elementor-widget-wrap">
-                                        <div class="elementor-element elementor-element-0aede4f elementor-widget elementor-widget-image" data-id="0aede4f" data-element_type="widget" data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-image"> <img src="{{asset('frontend/uploads/2020/06/paymet.png')}}" title="" alt="" /></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                           
                         </div>
                     </div>
                 </section>
@@ -157,10 +147,8 @@
                                         <div class="elementor-element elementor-element-ef85334 elementor-icon-list--layout-inline elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="ef85334" data-element_type="widget" data-widget_type="icon-list.default">
                                             <div class="elementor-widget-container">
                                                 <ul class="elementor-icon-list-items elementor-inline-items">
-                                                    <li class="elementor-icon-list-item elementor-inline-item"> <a href="#"> <span class="elementor-icon-list-text">Terms of Use</span> </a></li>
-                                                    <li class="elementor-icon-list-item elementor-inline-item"> <a href="#"> <span class="elementor-icon-list-text">Copyright & Trademark </span> </a></li>
-                                                    <li class="elementor-icon-list-item elementor-inline-item"> <a href="#"> <span class="elementor-icon-list-text">Policy</span> </a></li>
-                                                    <li class="elementor-icon-list-item elementor-inline-item"> <a href="#"> <span class="elementor-icon-list-text">Sitemap</span> </a></li>
+                                                    <li class="elementor-icon-list-item elementor-inline-item"> <a href="{{route("web.term")}}"> <span class="elementor-icon-list-text">Kebijakan Penggunaan</span> </a></li> 
+                                                    <li class="elementor-icon-list-item elementor-inline-item"> <a href="{{route('web.policy')}}"> <span class="elementor-icon-list-text">Policy</span> </a></li> 
                                                 </ul>
                                             </div>
                                         </div>
@@ -172,7 +160,7 @@
                                     <div class="elementor-widget-wrap">
                                         <div class="elementor-element elementor-element-106eec8 elementor-widget elementor-widget-text-editor" data-id="106eec8" data-element_type="widget" data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <div class="elementor-text-editor elementor-clearfix"> © 2021 Bookio. All Rights Reserved</div>
+                                                <div class="elementor-text-editor elementor-clearfix">{{$setting->copyright}}</div>
                                             </div>
                                         </div>
                                     </div>

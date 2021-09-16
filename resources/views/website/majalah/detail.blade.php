@@ -11,14 +11,14 @@
         <div class="content-image-single">
             <div class="content-info">
                 <div class="cat-links">
-                    <a href="../../../../category/backpack/index.html" rel="category tag">{{$book->category->name ?? ''}}</a>,
+                    <a href="{{route('majalah.category',[$book->category_id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $book->category->name ?? 'none'))])}}" rel="category tag">{{$book->category->name ?? ''}}</a>,
                 </div>
                 <h3 class="entry-title">{{$book->title}}</h3>
                 <div class="entry-by entry-meta">
                     <div class="entry-author">
                         <span class="entry-meta-link">
                             <i class="wpb-icon-user"></i>
-                            <a href="../../../../author/wpbingo/index.html" title="Posts by Wpbingo" rel="author">{{$book->author->name ?? ''}}</a>
+                            <a href="{{route('author.detail',[$book->author_id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $book->author->name ?? 'none'))])}}" title="Posts by Wpbingo" rel="author">{{$book->author->name ?? ''}}</a>
                         </span>
                     </div>
                     <div class="comments-link">

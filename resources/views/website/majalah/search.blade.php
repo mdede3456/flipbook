@@ -62,7 +62,7 @@
                                                     <div class=""></div>
                                                     <div class=""><i class="fa fa-eye"></i> ( {{count($b->viewer)}} )</div>
                                                 </div>
-                                                <div class="list-author">By : <span class="item-author"><a href="../product_author/alyce-kris/index.html">{{$b->author->name ?? ''}}</a></span></div>
+                                                <div class="list-author">By : <span class="item-author"><a href="{{route('author.detail',[$b->author_id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $b->author->name ?? 'none'))])}}">{{$b->author->name ?? ''}}</a></span></div>
                                                 <h3 class="product-title"><a href="{{route('majalah.detail',[$b->id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $b->title))])}}">{{$b->title}}</a></h3>
                                             </div>
                                         </div>

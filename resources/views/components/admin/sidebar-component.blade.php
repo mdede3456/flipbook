@@ -73,7 +73,7 @@
                 <li><a class="nav-link" href="{{ route('komik') }}">Daftar Komik</a></li>
             </ul>
         </li>
-
+        @if(Auth()->user()->role == 'super_admin')
         {{-- Manga Main Menu --}}
         <li class="menu-header">Pengaturan Tampilan</li>
 
@@ -101,5 +101,6 @@
                 <li><a class="nav-link" href="{{ route('admin.policy') }}">Policy Page</a></li>
             </ul>
         </li>
+        @endif
     </ul>
 </aside>

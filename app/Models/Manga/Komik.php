@@ -19,4 +19,6 @@ class Komik extends Model
     {
         return $this->hasMany(Chapter::class,'komik_id')->orderBy("name","desc");
     }
+
+    
 }

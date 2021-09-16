@@ -10,7 +10,7 @@
                     <div class="entry-author">
                         <span class="entry-meta-link">
                             <i class="wpb-icon-user"></i>
-                            <a href="../../../../author/wpbingo/index.html" title="Posts by Wpbingo" rel="author">{{$video->author->name ?? ''}}</a>
+                            <a href="{{route('author.detail',[$video->author_id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $a->author->name ?? 'none'))])}}" title="Posts by Wpbingo" rel="author">{{$video->author->name ?? ''}}</a>
                         </span>
                     </div>
                     <div class="comments-link">
@@ -20,7 +20,7 @@
             </div>
             <div class="entry-thumb single-thumb">
                 <p align="center">
-                    <iframe width="1060" height="635"  src="https://www.youtube.com/embed/{{$video->video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe style="height:635px; width:100%;" src="https://www.youtube.com/embed/{{$video->video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </p>
             </div>
         </div>

@@ -24,7 +24,7 @@
                         <div class=""></div>
                         <div class=" "><i class="fa fa-eye"></i> ( {{count($book->viewer)}} )</div>
                     </div>
-                    <div class="list-author">By : <span class="item-author"><a href="product_author/norene-mayert/index.html">{{$book->author->name ?? ''}}</a></span></div>
+                    <div class="list-author">By : <span class="item-author"><a href="{{route('author.detail',[$book->author_id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $book->author->name ?? 'none'))])}}">{{$book->author->name ?? ''}}</a></span></div>
                     <h3 class="product-title"><a href="{{route('majalah.detail',[$book->id,strtolower(preg_replace("/[^a-zA-Z0-9]/", "-", $book->title))])}}">{{$book->title}}</a></h3>
 
                 </div>
