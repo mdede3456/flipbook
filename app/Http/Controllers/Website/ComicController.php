@@ -14,11 +14,11 @@ class ComicController extends Controller
 
     public function detail($id)
     {
-
+        
     }
 
     public function read($id)
     {
-        
+
     }
 }
