@@ -48,7 +48,7 @@
             </ul>
         </li>
 
-          {{-- Video Menu --}}
+        {{-- Video Menu --}}
         <li class="dropdown {{ request()->is('admin/video*') ? 'active' : '' }}">
             <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="video"></i><span>Video</span></a>
             <ul class="dropdown-menu">
@@ -90,6 +90,15 @@
         {{-- Pengaturan Umum --}}
         <li class="dropdown  {{ request()->is('admin/pengaturan') ? 'active' : '' }}">
             <a href="{{ route('admin.settings') }}" class="nav-link"><i data-feather="settings"></i><span>Pengaturan Umum</span></a>
+        </li>
+
+        <li class="dropdown {{ request()->is('admin/pengguna*') ? 'active' : '' }}">
+            <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="users"></i><span>Pengguna</span></a>
+            <ul class="dropdown-menu">
+                <li><a class="nav-link" href="{{ route('pengguna') }}">Super Admin</a></li>
+                <li><a class="nav-link" href="{{ route('pengguna.admin') }}">Admin / Author</a></li>
+                <li><a class="nav-link" href="{{ route('pengguna.create') }}">Tambah Pengguna</a></li>
+            </ul>
         </li>
 
         {{-- Page Menu --}}

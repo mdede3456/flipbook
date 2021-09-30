@@ -12,6 +12,7 @@ use App\Http\Controllers\Frontend\TermController;
 use App\Http\Controllers\Manga\ChapterController;
 use App\Http\Controllers\Manga\GenreController;
 use App\Http\Controllers\Manga\KomikController;
+use App\Http\Controllers\UsersController;
 use App\Http\Controllers\Video\VideoController;
 use App\Http\Controllers\Website\WebsiteController;
 use App\Models\Flipbook\CategoryFlipbook;
@@ -36,6 +37,9 @@ Route::middleware(['auth'])->group(function() {
     Route::get("/profile", [AdminController::class, 'profile'])->name('profile');
     Route::post("/profile-store", [AdminController::class, 'profileStore'])->name('profile.store');
 
+    Route::prefix('analytic')->group(function() {
+        Route::get("/bycontent",[AdminController::class,'bycontent']);
+    });
     // Category Route
     Route::prefix('category')->group(function () {
         Route::get("/", [CategoryController::class, 'index'])->name('category');
@@ -92,6 +96,17 @@ Route::middleware(['auth'])->group(function() {
 });
 
 Route::middleware('superadmin')->group(function () {  
+
+    // User Route
+    Route::prefix("pengguna")->group(function() {
+        Route::get("/super-admin",[UsersController::class,'index'])->name('pengguna');
+        Route::get("/admin",[UsersController::class,'admin'])->name('pengguna.admin');
+        Route::get("/create",[UsersController::class,'create'])->name('pengguna.create');
+        Route::get("/update/{id}",[UsersController::class,'update'])->name('pengguna.update');
+        Route::get("/delete/{id}",[UsersController::class,'delete'])->name('pengguna.delete');
+        Route::post("store/{any}",[UsersController::class,'store'])->name('pengguna.store');
+    });
+
     // Slider Route
     Route::prefix('slider')->group(function () {
         Route::get('/', [SliderController::class, 'index'])->name('slider.index');

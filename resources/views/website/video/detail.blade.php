@@ -20,7 +20,7 @@
             </div>
             <div class="entry-thumb single-thumb">
                 <p align="center">
-                    <iframe style="height:635px; width:100%;" src="https://www.youtube.com/embed/{{$video->video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe style="height:635px; width:100%;" src="{{$video->video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </p>
             </div>
         </div>
@@ -37,7 +37,7 @@
                     </form>
                 </aside>
                 <x-video.category-sidebar></x-video.category-sidebar>
-                <aside id="bwp_recent_post_widget-2" class="widget bwp_recent_post_widget">
+                {{-- <aside id="bwp_recent_post_widget-2" class="widget bwp_recent_post_widget">
                     <div class="bwp-recent-post sidebar">
                         <div class="block">
                             <h2 class="widget-title">Video Terbaru</h2>
@@ -60,7 +60,7 @@
                             </div>
                         </div>
                     </div>
-                </aside>
+                </aside> --}}
 
 
             </div>
@@ -93,13 +93,13 @@
                                 </a>
                                 <a href="https://api.whatsapp.com/send?text={{$video->title}}%0A%0A{{url()->current()}}" target="_blank" title="Whatsapp" class="share-linkedin">
                                     <i class="fa fa-whatsapp"></i>
-                                </a>
-                               
+                                </a> 
                             </div>
                         </div>
                     </div>
                     
-                    <div class="clearfix"></div>
+                    <div class="clearfix"></div> 
+                    <x-video.related-component></x-video.related-component>
                 </article>
 
             </div>

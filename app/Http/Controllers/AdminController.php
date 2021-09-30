@@ -2,7 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\FlipBook;
+use App\Models\Manga\Komik;
 use App\Models\User;
+use App\Models\Video\Video;
+use App\Models\Website\Viewer;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -11,17 +16,35 @@ class AdminController extends Controller
 {
     public function index()
     {
-        return view('admin.index',["page" => "Admin Dashboard"]);
+        $data = [
+            'majalah'   => FlipBook::count(),
+            'komik'     => Komik::count(),
+            'video'     => Video::count(),
+            'viewer'    => Viewer::whereDate("created_at", Carbon::today())->count()
+        ];
+        return view('admin.index', ["page" => "Admin Dashboard"], compact('data'));
+    }
+
+    public function bycontent()
+    {
+        $viewer['majalah']      = Viewer::selectRaw('LEFT(created_at,10) as date, count(id) as total')->whereMonth('created_at', date('m'))->whereYear('created_at', date('Y'))->groupBy('date')->get();
+        $viewer['mobile']       = Viewer::selectRaw("count(id) as total")->where("device","Android")->groupBy('device')->get();
+        $viewer['windows']      = Viewer::selectRaw("count(id) as total")->where("device","Windows")->groupBy('device')->get();
+
+        $viewer['mjlh']      = Viewer::selectRaw("count(id) as total")->where("type","majalah")->groupBy('type')->get();
+        $viewer['video']        = Viewer::selectRaw("count(id) as total")->where("type","komik")->groupBy('type')->get();
+        $viewer['komik']        = Viewer::selectRaw("count(id) as total")->where("type","video")->groupBy('type')->get();
+        return response()->json($viewer);
     }
 
     public function profile()
     {
-        return view('admin.profile',["page" => "Update Profile"]);
+        return view('admin.profile', ["page" => "Update Profile"]);
     }
 
     public function profileStore(Request $request)
     {
-        $validate = Validator::make($request->all(), [ 
+        $validate = Validator::make($request->all(), [
             'email' => 'required|unique:users,email,' . Auth()->user()->id,
             'name' => 'required',
             'banner' => 'mimes:jpg,jpeg,png'
@@ -47,7 +70,7 @@ class AdminController extends Controller
     public function changePass(Request $request)
     {
         $validate = Validator::make($request->all(), [
-            'password' => 'required', 
+            'password' => 'required',
             'confirm'   => 'required'
         ]);
 
@@ -60,7 +83,7 @@ class AdminController extends Controller
             }
         }
 
-        if($request->password != $request->confirm) {
+        if ($request->password != $request->confirm) {
             return response()->json([
                 'errors' => "Password & Konfirmasi Password harus sama",
                 'message' => 'password'
@@ -71,5 +94,4 @@ class AdminController extends Controller
         $data->password = Hash::make($request->password);
         return $this->saveData($data);
     }
-
 }

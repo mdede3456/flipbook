@@ -3,85 +3,62 @@
 @section('style')
 <link rel="stylesheet" href="{{ asset('assets/bundles/summernote/summernote-bs4.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/bundles/dropify/css/dropify.min.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/bundles/bootstrap-tagsinput/dist/bootstrap-tagsinput.css')}}">
+<link rel="stylesheet" href="{{ asset('assets/bundles/select2/dist/css/select2.min.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/bundles/jquery-selectric/selectric.css') }}">
 @endsection
 
 @section('content')
 <div class="section-body">
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                {{-- action="{{ route("flipbook.store",'create') }}" --}}
-                <form id="Cflipbook" method="POST" enctype="multipart/form-data" class="card">
+            <div class="col-12"> 
+                <form id="cManga" method="POST" enctype="multipart/form-data" class="card">
                     @csrf
                     <div class="card-header">
-                        <h4>{{$page}}</h4>
+                        <h4>{{ $page }}</h4>
                     </div>
                     <div class="card-body">
                         <x-validation-component></x-validation-component>
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="title">Judul</label>
-                                <input type="text" name="title" class="form-control" id="title" placeholder="Judul">
-                            </div>
+                                <label for="name">Nama Pengguna</label>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Nama Lengkap Pengguna">
+                            </div> 
                             <div class="form-group col-md-6">
-                                <label for="title">Kategori</label>
-                                <select class="form-control" name="category_id">
-                                    <option value="">Pilih Kategori</option>
-                                    @foreach($category as $c)
-                                    <option value="{{$c->id}}">{{$c->name}}</option>
-                                    @endforeach
+                                <label for="email">Email Pengguna</label>
+                                <input type="email" name="email" class="form-control" id="email" placeholder="Email Pengguna">
+                            </div> 
+                            <div class="form-group col-md-6">
+                                <label for="name">Role Pengguna</label>
+                                <select class="form-control" name="role">
+                                    <option value="">Pilih Role</option>
+                                    <option value="super_admin">Super Admin</option>
+                                    <option value="admin">Admin / Author</option>
                                 </select>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="title">Unggulan</label>
-                                <select class="form-control" name="unggulan">
-                                    <option value="ya">Ya</option>
-                                    <option value="tidak">Tidak</option>
-                                </select>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="title">Publish</label>
-                                <select class="form-control" name="status">
-                                    <option value="1">Ya</option>
-                                    <option value="0">Tidak</option>
-                                </select>
-                            </div>
+                                <label for="password">Email Pengguna</label>
+                                <input type="password" name="password" class="form-control" id="email" placeholder="Password Baru">
+                            </div>  
                         </div>
 
+
                         <div class="form-row">
-                            <div class="form-group col-md-12">
-                                <label for="tag">Tag</label>
-                                <input type="text" name="tag" class="form-control inputtags" id="tag">
-                            </div>
-                            @if(Auth()->user()->role == 'super_admin')
-                            <div class="form-group col-md-12">
-                                <label for="title">Author</label>
-                                <select class="form-control" name="author_id">
-                                     @foreach($author as $a)
-                                         <option value="{{$a->id}}">{{$a->name}}</option>
-                                     @endforeach
-                                </select>
-                            </div>
-                            @endif
+ 
                             <div class="form-group col-md-6">
-                                <label for="file">File Pdf</label>
-                                <input type="file" name="file" class="dropify" id="file">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="file">Thumbnail ( 720px x 1040px ) </label>
-                                <input type="file" name="thumbnail" class="dropify" id="file">
+                                <label for="file">Photo <b style="font-size: 10px">( Upload dengan format jpg,jpeg,png)</b> </label>
+                                <input type="file" name="photo" class="dropify" id="file">
                             </div>
 
-                            <div class="form-group col-md-12">
-                                <label for="description">Deskripsi / Detail</label>
-                                <textarea name="description" class="summernote-simple"></textarea>
+                             <div class="form-group col-md-6">
+                                <label for="file">Banner <b style="font-size: 10px">( Upload dengan format jpg,jpeg,png)</b> </label>
+                                <input type="file" name="banner" class="dropify" id="file">
                             </div>
                         </div>
 
                     </div>
                     <div class="card-footer">
-                        <button class="btn btn-primary">Tambah Data</button>
+                        <button class="btn btn-primary">Simpan Data</button>
                     </div>
                 </form>
             </div>
@@ -91,15 +68,14 @@
 @endsection
 
 @section('scripts')
+{{-- Summernote --}}
 <script src="{{ asset('assets/bundles/summernote/summernote-bs4.js') }}"></script>
-<script src="{{ asset('assets/bundles/codemirror/lib/codemirror.js') }}"></script>
-<script src="{{ asset('assets/bundles/codemirror/mode/javascript/javascript.js') }}"></script>
-<script src="{{ asset('assets/bundles/jquery-selectric/jquery.selectric.min.js') }}"></script>
-<script src="{{ asset('assets/bundles/ckeditor/ckeditor.js') }}"></script>
-<script src="{{ asset('assets/bundles/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js')}}"></script>
-<!-- Page Specific JS File -->
-<script src="{{ asset('assets/js/page/ckeditor.js') }}"></script>
 
+{{-- Select2 --}}
+<script src="{{ asset('assets/bundles/select2/dist/js/select2.full.min.js') }}"></script>
+<script src="{{ asset('assets/bundles/jquery-selectric/jquery.selectric.min.js') }}"></script>
+<!-- Page Specific JS File -->
+{{-- Dropify --}}
 <script src="{{ asset('assets/bundles/dropify/js/dropify.min.js') }}"></script>
 <script>
     const domain = document.location.origin;
@@ -107,17 +83,16 @@
     var spinner = $("#loader");
     $(document).ready(function() {
         // Basic
-       
         $('.dropify').dropify();
     });
- $(".inputtags").tagsinput("items");
-    $("form#Cflipbook").on("submit", function(e) {
+
+    $("form#cManga").on("submit", function(e) {
         spinner.show();
         e.preventDefault();
         var formData = new FormData(this);
         setTimeout(function() {
             $.ajax({
-                url: domain + "/admin/flipbook/store/create"
+                url: domain + "/admin/pengguna/store/create"
                 , type: "POST"
                 , data: formData
                 , success: function(data, json, errorThrown) {
@@ -146,8 +121,8 @@
                             }
                         );
                         spinner.hide();
-                    }  else {
-                        toastr.success("Data Flipbook Berhasil ditambahkan", "success", {
+                    } else {
+                        toastr.success("Data Manga Berhasil ditambahkan", "success", {
                             timeOut: 5e3
                             , closeButton: !0
                             , debug: !1
@@ -166,9 +141,9 @@
                             , tapToDismiss: !1
                         , });
                         spinner.hide();
-                        $("#title").val("");
-                        $("#tag").val("");
-                        $('.summernote-simple').summernote('code', '');
+                        $("#name").val("");
+                        $("#email").val("")
+                         $("#email").val("password") 
                     }
                 },
 

@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Video;
 use App\Http\Controllers\Controller;
 use App\Models\FlipBook;
 use App\Models\Flipbook\CategoryFlipbook;
+use App\Models\User;
 use App\Models\Video\Video;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -22,7 +23,8 @@ class VideoController extends Controller
     public function create()
     {
         $category = CategoryFlipbook::orderBy("name","desc")->get();
-        return view('admin.video.create',["page" => "Tambah Video"],compact('category'));
+        $author = User::where("role","admin")->get();
+        return view('admin.video.create',["page" => "Tambah Video"],compact('category','author'));
     }
 
     public function update($id)
@@ -37,7 +39,8 @@ class VideoController extends Controller
             0       => "Tidak",
             1       => "Ya"
         ];
-        return view('admin.video.update',["page" => "Edit Video"],compact('category','video','unggulan','status'));
+        $author = User::where("role","admin")->get();
+        return view('admin.video.update',["page" => "Edit Video"],compact('category','video','unggulan','status','author'));
     }
 
     public function delete($id)
@@ -61,21 +64,14 @@ class VideoController extends Controller
                     'message' => 'error'
                 ]);
             }
-        }
-
-        if(Auth()->user()->role == 'super_admin') {
-            return response()->json([
-                'errors' => "Gunakan Role Admin / Author untuk menambah atau memperbaharui content",
-                'message' => 'superadmin'
-            ]);
-        }
+        } 
 
         $condition == 'create' ? $data = new Video() : $data = Video::findOrFail($request->id);
         $data->title = $request->title;
         $data->video = $request->video;
         $data->category_id = $request->category_id;
         $data->status = $request->status;
-        $data->author_id = Auth()->user()->id;
+        $request->author ?  $data->author_id = $request->author_id : $data->author_id = Auth()->user()->id;
         $request->description ? $data->description = $request->description : null;
         $data->unggulan = $request->unggulan;
         $request->thumbnail ? $data->thumbnail = $this->uploadImage($request, 'thumbnail', 'video') : null;

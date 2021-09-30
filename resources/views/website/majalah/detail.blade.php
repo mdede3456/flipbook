@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div class="entry-thumb single-thumb">
-                <div style="height: 750px" id="reading" />
+                <div style="height: 750px;"   id="reading" />
             </div>
         </div>
         <div class="single-post-content row">
@@ -43,7 +43,7 @@
                     </form>
                 </aside>
                 <x-website.category-sidebar></x-website.category-sidebar>
-                <aside id="bwp_recent_post_widget-2" class="widget bwp_recent_post_widget">
+                {{-- <aside id="bwp_recent_post_widget-2" class="widget bwp_recent_post_widget">
                     <div class="bwp-recent-post sidebar">
                         <div class="block">
                             <h2 class="widget-title">Majalah Terbaru</h2>
@@ -66,9 +66,7 @@
                             </div>
                         </div>
                     </div>
-                </aside>
-
-
+                </aside> --}} 
             </div>
             <div class="post-single sidebar col-xl-9 col-lg-9 col-md-12 col-12">
                 <article id="post-3976" style="margin-top:25px;" class="post-3976 post type-post status-publish format-standard has-post-thumbnail hentry category-backpack category-fashion category-life-style tag-hot tag-trend">
@@ -106,6 +104,7 @@
                     </div>
                     
                     <div class="clearfix"></div>
+                    <x-majalah.related-component></x-majalah.related-component>
                 </article>
 
             </div>
@@ -120,7 +119,8 @@
     $(document).ready(function() {
 
         $("#reading").flipBook({
-            pdfUrl: '{{ asset($book->file) }}'
+            pdfUrl: '{{ asset($book->file) }}',
+           backgroundColor:"#fff"
         })
     })
 

@@ -58,6 +58,16 @@
                                 <label for="tag">Tag</label>
                                 <input type="text" name="tag" class="form-control inputtags" id="tag" value="{{$flipbook->tag}}">
                             </div>
+                            @if(Auth()->user()->role == 'super_admin')
+                                <div class="form-group col-md-12">
+                                    <label for="title">Author</label>
+                                    <select class="form-control" name="author_id">
+                                        @foreach($author as $a)
+                                            <option value="{{$a->id}}" @if($a->id == $flipbook->author_id) selected @endif  >{{$a->name}}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                            @endif
                             <div class="form-group col-md-6">
                                 <label for="file">File Pdf</label>
                                 <input type="file" name="file" class="dropify" id="file" data-default-file="{{ asset($flipbook->file) }}">
@@ -138,26 +148,6 @@
                                 }
                             }
                         );
-                        spinner.hide();
-                    } else if(data.message == 'superadmin') {
-                        toastr.error(data.errors, "Peringatan", {
-                            timeOut: 5e3
-                            , closeButton: !0
-                            , debug: !1
-                            , newestOnTop: !0
-                            , progressBar: !0
-                            , positionClass: "toast-top-right"
-                            , preventDuplicates: !0
-                            , onclick: null
-                            , showDuration: "100"
-                            , hideDuration: "1000"
-                            , extendedTimeOut: "1000"
-                            , showEasing: "swing"
-                            , hideEasing: "linear"
-                            , showMethod: "fadeIn"
-                            , hideMethod: "fadeOut"
-                            , tapToDismiss: !1
-                        , });
                         spinner.hide();
                     } else {
                         toastr.success("Data Flipbook Berhasil diperbaharui", "success", {

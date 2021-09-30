@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\FlipBook;
 use App\Models\Flipbook\CategoryFlipbook;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
@@ -24,7 +25,8 @@ class FlipBookController extends Controller
     public function create()
     {
         $category = CategoryFlipbook::all();
-        return view('admin.flipbook.create', ['page' => "Tambah Majalah"], compact('category'));
+        $author = User::where("role","admin")->get();
+        return view('admin.flipbook.create', ['page' => "Tambah Majalah"], compact('category','author'));
     }
 
     // Update Flipbook Page 
@@ -40,7 +42,8 @@ class FlipBookController extends Controller
             "0"       => "Tidak",
             "1"       => "Ya"
         ];
-        return view('admin.flipbook.update', ["page" => "Update Flipbook"], compact('flipbook', 'category', 'unggulan', 'status'));
+        $author = User::where("role","admin")->get();
+        return view('admin.flipbook.update', ["page" => "Update Flipbook"], compact('flipbook', 'category', 'unggulan', 'status','author'));
     }
 
     // Delete Flipbook Page
@@ -73,14 +76,7 @@ class FlipBookController extends Controller
                     'message' => 'error'
                 ]);
             }
-        }
-
-        if(Auth()->user()->role == 'super_admin') {
-            return response()->json([
-                'errors' => "Gunakan Role Admin / Author untuk menambah atau memperbaharui content",
-                'message' => 'superadmin'
-            ]);
-        }
+        } 
 
         $condition == 'create' ? $data = new FlipBook : $data = FlipBook::findOrFail($request->id);
         $data->title = $request->title;
@@ -88,7 +84,7 @@ class FlipBookController extends Controller
         $request->description ? $data->description = $request->description : null; 
         $request->file ? $data->file = $this->uploadImage($request, 'file', 'berkas') : null;
         $data->category_id = $request->category_id;
-        $data->author_id = Auth()->user()->id;
+        $request->author ?  $data->author_id = $request->author_id : $data->author_id = Auth()->user()->id;
         $data->unggulan = $request->unggulan;
         $request->thumbnail ? $data->thumbnail = $this->uploadImage($request, 'thumbnail', 'flipbook') : null;
         $request->tag ? $data->tag = $request->tag : null;
